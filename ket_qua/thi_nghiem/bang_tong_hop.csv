@@ -1,0 +1,5 @@
+﻿Thuật toán,Frontier,Đầy đủ (lý thuyết),Tối ưu (lý thuyết),Tỷ lệ tối ưu KB2 (%),Vượt tối ưu TB KB2 (%),Node mở rộng TB KB2,Node sinh ra TB KB2,Frontier lớn nhất TB KB2,Thời gian TB KB2 (µs),"Tỷ lệ tối ưu KB3, k = 2.0 (%)","Node mở rộng TB KB3, k = 2.0",Kiểm chứng đạt
+BFS,Hàng đợi FIFO,Có,Chỉ khi mọi cạnh bằng nhau,84.8,5.37,6.0,9.89,5.34,6.5,73.3,6.0,8188/8188
+GBFS,Ưu tiên theo h(n),"Có (graph search, đồ thị hữu hạn)",Không,81.8,3.13,1.9,7.17,5.27,5.8,76.2,1.9,8188/8188
+A*,Ưu tiên theo g(n) + h(n),Có,"Có, nếu h nhất quán",100.0,-0.0,2.87,8.3,5.48,9.2,100.0,2.88,8188/8188
+UCS,Ưu tiên theo g(n),Có,Có,100.0,-0.0,6.0,10.64,5.96,12.7,100.0,6.0,8188/8188

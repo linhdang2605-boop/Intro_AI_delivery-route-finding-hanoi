@@ -1,0 +1,31 @@
+{
+  "nguon_ranh_gioi": "https://raw.githubusercontent.com/daohoangson/dvhcvn/master/data/gis/01.json",
+  "sha256_file_ranh_gioi": "40affa981f9dab05cc25d0f1920603aff221b6e3bc3771b9bc5344b7e0eb6644",
+  "ngay_du_lieu_dvhcvn": "01/03/2025",
+  "thoi_diem_chay_utc": "2026-10-16T04:27:10+00:00",
+  "he_quy_chieu": "EPSG:32648 (WGS 84 / UTM zone 48N)",
+  "goc_toa_do_utm_m": {
+    "x": 573000,
+    "y": 2312000
+  },
+  "tam_quan": "trọng tâm hình học (centroid) của đa giác ranh giới",
+  "dieu_kien_ke_nhau": "chung ranh giới > 300 m (dung sai 80 m)",
+  "so_quan": 12,
+  "so_cap_ke_nhau": 26,
+  "sai_lech_lon_nhat_phang_vs_trac_dia_km": 0.003,
+  "doi_chieu_geoboundaries_km": {
+    "Ba Đình": 0.028,
+    "Hoàn Kiếm": 0.013,
+    "Tây Hồ": 0.083,
+    "Long Biên": 0.039,
+    "Cầu Giấy": 0.05,
+    "Đống Đa": 0.125,
+    "Hai Bà Trưng": 0.143,
+    "Hoàng Mai": 0.043,
+    "Thanh Xuân": 0.031,
+    "Nam Từ Liêm": 0.017,
+    "Bắc Từ Liêm": 0.022,
+    "Hà Đông": 0.022
+  },
+  "doi_chieu_lech_lon_nhat_km": 0.143
+}

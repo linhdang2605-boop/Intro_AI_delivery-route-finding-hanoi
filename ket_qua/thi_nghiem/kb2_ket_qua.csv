@@ -1,0 +1,529 @@
+﻿Kho,Đích,Thuật toán,Đường đi,Số cạnh,Tổng km,Ngắn nhất (km),Ít cạnh nhất,Tối ưu,Vượt tối ưu (%),Node mở rộng,Node sinh ra,Frontier lớn nhất,Thứ tự mở rộng,Kiểm chứng,Chi tiết kiểm chứng,Thời gian (µs)
+Ba Đình,Hoàn Kiếm,BFS,Ba Đình → Hoàn Kiếm,1,2.93265886185216,2.93265886185216,1,True,0.0,1,5,4,Ba Đình,ĐẠT,số cạnh 1 / ít nhất 1,2.9431666666666665
+Ba Đình,Hoàn Kiếm,GBFS,Ba Đình → Hoàn Kiếm,1,2.93265886185216,2.93265886185216,1,True,0.0,1,5,4,Ba Đình,ĐẠT,khớp cài đặt độc lập,3.9055333333333335
+Ba Đình,Hoàn Kiếm,A*,Ba Đình → Hoàn Kiếm,1,2.93265886185216,2.93265886185216,1,True,0.0,1,5,4,Ba Đình,ĐẠT,2.933 km / ngắn nhất 2.933 km,4.556966666666666
+Ba Đình,Hoàn Kiếm,UCS,Ba Đình → Hoàn Kiếm,1,2.93265886185216,2.93265886185216,1,True,0.0,1,5,4,Ba Đình,ĐẠT,2.933 km / ngắn nhất 2.933 km,5.265533333333334
+Ba Đình,Tây Hồ,BFS,Ba Đình → Tây Hồ,1,5.3,5.3,1,True,0.0,2,7,5,"Ba Đình, Hoàn Kiếm",ĐẠT,số cạnh 1 / ít nhất 1,3.923
+Ba Đình,Tây Hồ,GBFS,Ba Đình → Tây Hồ,1,5.3,5.3,1,True,0.0,1,5,4,Ba Đình,ĐẠT,khớp cài đặt độc lập,3.7053333333333334
+Ba Đình,Tây Hồ,A*,Ba Đình → Tây Hồ,1,5.3,5.3,1,True,0.0,1,5,4,Ba Đình,ĐẠT,5.300 km / ngắn nhất 5.300 km,4.2655666666666665
+Ba Đình,Tây Hồ,UCS,Ba Đình → Tây Hồ,1,5.3,5.3,1,True,0.0,3,8,5,"Ba Đình, Hoàn Kiếm, Đống Đa",ĐẠT,5.300 km / ngắn nhất 5.300 km,7.337899999999999
+Ba Đình,Long Biên,BFS,Ba Đình → Hoàn Kiếm → Long Biên,2,9.73265886185216,9.73265886185216,2,True,0.0,5,10,6,"Ba Đình, Hoàn Kiếm, Tây Hồ, Cầu Giấy, Đống Đa",ĐẠT,số cạnh 2 / ít nhất 2,6.955133333333333
+Ba Đình,Long Biên,GBFS,Ba Đình → Hoàn Kiếm → Long Biên,2,9.73265886185216,9.73265886185216,2,True,0.0,2,7,5,"Ba Đình, Hoàn Kiếm",ĐẠT,khớp cài đặt độc lập,5.574566666666667
+Ba Đình,Long Biên,A*,Ba Đình → Hoàn Kiếm → Long Biên,2,9.73265886185216,9.73265886185216,2,True,0.0,2,7,5,"Ba Đình, Hoàn Kiếm",ĐẠT,9.733 km / ngắn nhất 9.733 km,6.780166666666667
+Ba Đình,Long Biên,UCS,Ba Đình → Hoàn Kiếm → Long Biên,2,9.73265886185216,9.73265886185216,2,True,0.0,7,12,5,"Ba Đình, Hoàn Kiếm, Đống Đa, Tây Hồ, Hai Bà Trưng, Cầu Giấy, Thanh Xuân",ĐẠT,9.733 km / ngắn nhất 9.733 km,29.099833333333333
+Ba Đình,Cầu Giấy,BFS,Ba Đình → Cầu Giấy,1,6.0,6.0,1,True,0.0,3,8,5,"Ba Đình, Hoàn Kiếm, Tây Hồ",ĐẠT,số cạnh 1 / ít nhất 1,5.6824666666666666
+Ba Đình,Cầu Giấy,GBFS,Ba Đình → Cầu Giấy,1,6.0,6.0,1,True,0.0,1,5,4,Ba Đình,ĐẠT,khớp cài đặt độc lập,3.7018666666666666
+Ba Đình,Cầu Giấy,A*,Ba Đình → Cầu Giấy,1,6.0,6.0,1,True,0.0,1,5,4,Ba Đình,ĐẠT,6.000 km / ngắn nhất 6.000 km,4.281066666666667
+Ba Đình,Cầu Giấy,UCS,Ba Đình → Cầu Giấy,1,6.0,6.0,1,True,0.0,5,10,5,"Ba Đình, Hoàn Kiếm, Đống Đa, Tây Hồ, Hai Bà Trưng",ĐẠT,6.000 km / ngắn nhất 6.000 km,31.29296666666667
+Ba Đình,Đống Đa,BFS,Ba Đình → Đống Đa,1,3.7,3.7,1,True,0.0,4,10,6,"Ba Đình, Hoàn Kiếm, Tây Hồ, Cầu Giấy",ĐẠT,số cạnh 1 / ít nhất 1,5.619233333333334
+Ba Đình,Đống Đa,GBFS,Ba Đình → Đống Đa,1,3.7,3.7,1,True,0.0,1,5,4,Ba Đình,ĐẠT,khớp cài đặt độc lập,3.8194666666666666
+Ba Đình,Đống Đa,A*,Ba Đình → Đống Đa,1,3.7,3.7,1,True,0.0,1,5,4,Ba Đình,ĐẠT,3.700 km / ngắn nhất 3.700 km,4.3173
+Ba Đình,Đống Đa,UCS,Ba Đình → Đống Đa,1,3.7,3.7,1,True,0.0,2,7,5,"Ba Đình, Hoàn Kiếm",ĐẠT,3.700 km / ngắn nhất 3.700 km,5.625266666666667
+Ba Đình,Hai Bà Trưng,BFS,Ba Đình → Hoàn Kiếm → Hai Bà Trưng,2,5.554508018459,5.554508018459,2,True,0.0,6,11,6,"Ba Đình, Hoàn Kiếm, Tây Hồ, Cầu Giấy, Đống Đa, Long Biên",ĐẠT,số cạnh 2 / ít nhất 2,6.568833333333333
+Ba Đình,Hai Bà Trưng,GBFS,Ba Đình → Hoàn Kiếm → Hai Bà Trưng,2,5.554508018459,5.554508018459,2,True,0.0,2,7,5,"Ba Đình, Hoàn Kiếm",ĐẠT,khớp cài đặt độc lập,5.5501000000000005
+Ba Đình,Hai Bà Trưng,A*,Ba Đình → Hoàn Kiếm → Hai Bà Trưng,2,5.554508018459,5.554508018459,2,True,0.0,2,7,5,"Ba Đình, Hoàn Kiếm",ĐẠT,5.555 km / ngắn nhất 5.555 km,6.754366666666667
+Ba Đình,Hai Bà Trưng,UCS,Ba Đình → Hoàn Kiếm → Hai Bà Trưng,2,5.554508018459,5.554508018459,2,True,0.0,4,9,5,"Ba Đình, Hoàn Kiếm, Đống Đa, Tây Hồ",ĐẠT,5.555 km / ngắn nhất 5.555 km,9.729333333333335
+Ba Đình,Hoàng Mai,BFS,Ba Đình → Hoàn Kiếm → Long Biên → Hoàng Mai,3,19.73265886185216,11.254508018459,3,False,75.33115467586661,10,12,6,"Ba Đình, Hoàn Kiếm, Tây Hồ, Cầu Giấy, Đống Đa, Long Biên, Hai Bà Trưng, Bắc Từ Liêm, Thanh Xuân, Nam Từ Liêm",ĐẠT,số cạnh 3 / ít nhất 3,8.165
+Ba Đình,Hoàng Mai,GBFS,Ba Đình → Đống Đa → Hai Bà Trưng → Hoàng Mai,3,14.100000000000001,11.254508018459,3,False,25.28313078522837,3,9,6,"Ba Đình, Đống Đa, Hai Bà Trưng",ĐẠT,khớp cài đặt độc lập,7.235433333333334
+Ba Đình,Hoàng Mai,A*,Ba Đình → Hoàn Kiếm → Hai Bà Trưng → Hoàng Mai,3,11.254508018459,11.254508018459,3,True,0.0,4,10,6,"Ba Đình, Hoàn Kiếm, Hai Bà Trưng, Đống Đa",ĐẠT,11.255 km / ngắn nhất 11.255 km,12.0106
+Ba Đình,Hoàng Mai,UCS,Ba Đình → Hoàn Kiếm → Hai Bà Trưng → Hoàng Mai,3,11.254508018459,11.254508018459,3,True,0.0,8,12,5,"Ba Đình, Hoàn Kiếm, Đống Đa, Tây Hồ, Hai Bà Trưng, Cầu Giấy, Thanh Xuân, Long Biên",ĐẠT,11.255 km / ngắn nhất 11.255 km,14.798333333333334
+Ba Đình,Thanh Xuân,BFS,Ba Đình → Cầu Giấy → Thanh Xuân,2,11.4,7.7,2,False,48.05194805194806,8,11,6,"Ba Đình, Hoàn Kiếm, Tây Hồ, Cầu Giấy, Đống Đa, Long Biên, Hai Bà Trưng, Bắc Từ Liêm",ĐẠT,số cạnh 2 / ít nhất 2,8.232833333333334
+Ba Đình,Thanh Xuân,GBFS,Ba Đình → Đống Đa → Thanh Xuân,2,7.7,7.7,2,True,0.0,2,7,5,"Ba Đình, Đống Đa",ĐẠT,khớp cài đặt độc lập,5.548633333333333
+Ba Đình,Thanh Xuân,A*,Ba Đình → Đống Đa → Thanh Xuân,2,7.7,7.7,2,True,0.0,2,7,5,"Ba Đình, Đống Đa",ĐẠT,7.700 km / ngắn nhất 7.700 km,7.0947
+Ba Đình,Thanh Xuân,UCS,Ba Đình → Đống Đa → Thanh Xuân,2,7.7,7.7,2,True,0.0,6,11,5,"Ba Đình, Hoàn Kiếm, Đống Đa, Tây Hồ, Hai Bà Trưng, Cầu Giấy",ĐẠT,7.700 km / ngắn nhất 7.700 km,14.7255
+Ba Đình,Nam Từ Liêm,BFS,Ba Đình → Cầu Giấy → Nam Từ Liêm,2,14.9,14.9,2,True,0.0,9,12,6,"Ba Đình, Hoàn Kiếm, Tây Hồ, Cầu Giấy, Đống Đa, Long Biên, Hai Bà Trưng, Bắc Từ Liêm, Thanh Xuân",ĐẠT,số cạnh 2 / ít nhất 2,9.300933333333333
+Ba Đình,Nam Từ Liêm,GBFS,Ba Đình → Cầu Giấy → Nam Từ Liêm,2,14.9,14.9,2,True,0.0,2,8,6,"Ba Đình, Cầu Giấy",ĐẠT,khớp cài đặt độc lập,6.2311000000000005
+Ba Đình,Nam Từ Liêm,A*,Ba Đình → Cầu Giấy → Nam Từ Liêm,2,14.9,14.9,2,True,0.0,6,15,9,"Ba Đình, Cầu Giấy, Đống Đa, Hoàn Kiếm, Thanh Xuân, Tây Hồ",ĐẠT,14.900 km / ngắn nhất 14.900 km,16.011366666666667
+Ba Đình,Nam Từ Liêm,UCS,Ba Đình → Cầu Giấy → Nam Từ Liêm,2,14.9,14.9,2,True,0.0,10,12,5,"Ba Đình, Hoàn Kiếm, Đống Đa, Tây Hồ, Hai Bà Trưng, Cầu Giấy, Thanh Xuân, Long Biên, Hoàng Mai, Bắc Từ Liêm",ĐẠT,14.900 km / ngắn nhất 14.900 km,17.185166666666667
+Ba Đình,Bắc Từ Liêm,BFS,Ba Đình → Tây Hồ → Bắc Từ Liêm,2,13.3,13.3,2,True,0.0,7,11,6,"Ba Đình, Hoàn Kiếm, Tây Hồ, Cầu Giấy, Đống Đa, Long Biên, Hai Bà Trưng",ĐẠT,số cạnh 2 / ít nhất 2,6.986
+Ba Đình,Bắc Từ Liêm,GBFS,Ba Đình → Cầu Giấy → Bắc Từ Liêm,2,13.4,13.3,2,False,0.7518796992481258,2,8,6,"Ba Đình, Cầu Giấy",ĐẠT,khớp cài đặt độc lập,6.2651666666666666
+Ba Đình,Bắc Từ Liêm,A*,Ba Đình → Tây Hồ → Bắc Từ Liêm,2,13.3,13.3,2,True,0.0,4,10,6,"Ba Đình, Tây Hồ, Cầu Giấy, Đống Đa",ĐẠT,13.300 km / ngắn nhất 13.300 km,11.985633333333332
+Ba Đình,Bắc Từ Liêm,UCS,Ba Đình → Tây Hồ → Bắc Từ Liêm,2,13.3,13.3,2,True,0.0,9,12,5,"Ba Đình, Hoàn Kiếm, Đống Đa, Tây Hồ, Hai Bà Trưng, Cầu Giấy, Thanh Xuân, Long Biên, Hoàng Mai",ĐẠT,13.300 km / ngắn nhất 13.300 km,16.829366666666665
+Ba Đình,Hà Đông,BFS,Ba Đình → Cầu Giấy → Thanh Xuân → Hà Đông,3,19.09780598612358,15.39780598612358,3,False,24.02939745658843,11,12,6,"Ba Đình, Hoàn Kiếm, Tây Hồ, Cầu Giấy, Đống Đa, Long Biên, Hai Bà Trưng, Bắc Từ Liêm, Thanh Xuân, Nam Từ Liêm, Hoàng Mai",ĐẠT,số cạnh 3 / ít nhất 3,8.413133333333333
+Ba Đình,Hà Đông,GBFS,Ba Đình → Cầu Giấy → Nam Từ Liêm → Hà Đông,3,21.48869607737373,15.39780598612358,3,False,39.55686996406651,3,9,6,"Ba Đình, Cầu Giấy, Nam Từ Liêm",ĐẠT,khớp cài đặt độc lập,8.606833333333334
+Ba Đình,Hà Đông,A*,Ba Đình → Đống Đa → Thanh Xuân → Hà Đông,3,15.39780598612358,15.39780598612358,3,True,0.0,4,11,7,"Ba Đình, Đống Đa, Cầu Giấy, Thanh Xuân",ĐẠT,15.398 km / ngắn nhất 15.398 km,13.441133333333333
+Ba Đình,Hà Đông,UCS,Ba Đình → Đống Đa → Thanh Xuân → Hà Đông,3,15.39780598612358,15.39780598612358,3,True,0.0,11,12,5,"Ba Đình, Hoàn Kiếm, Đống Đa, Tây Hồ, Hai Bà Trưng, Cầu Giấy, Thanh Xuân, Long Biên, Hoàng Mai, Bắc Từ Liêm, Nam Từ Liêm",ĐẠT,15.398 km / ngắn nhất 15.398 km,16.563233333333333
+Hoàn Kiếm,Ba Đình,BFS,Hoàn Kiếm → Ba Đình,1,2.93265886185216,2.93265886185216,1,True,0.0,1,5,4,Hoàn Kiếm,ĐẠT,số cạnh 1 / ít nhất 1,2.768
+Hoàn Kiếm,Ba Đình,GBFS,Hoàn Kiếm → Ba Đình,1,2.93265886185216,2.93265886185216,1,True,0.0,1,5,4,Hoàn Kiếm,ĐẠT,khớp cài đặt độc lập,3.695
+Hoàn Kiếm,Ba Đình,A*,Hoàn Kiếm → Ba Đình,1,2.93265886185216,2.93265886185216,1,True,0.0,1,5,4,Hoàn Kiếm,ĐẠT,2.933 km / ngắn nhất 2.933 km,5.704433333333333
+Hoàn Kiếm,Ba Đình,UCS,Hoàn Kiếm → Ba Đình,1,2.93265886185216,2.93265886185216,1,True,0.0,2,7,5,"Hoàn Kiếm, Hai Bà Trưng",ĐẠT,2.933 km / ngắn nhất 2.933 km,6.032466666666666
+Hoàn Kiếm,Tây Hồ,BFS,Hoàn Kiếm → Ba Đình → Tây Hồ,2,8.23265886185216,8.23265886185216,2,True,0.0,5,9,5,"Hoàn Kiếm, Ba Đình, Long Biên, Đống Đa, Hai Bà Trưng",ĐẠT,số cạnh 2 / ít nhất 2,5.551166666666667
+Hoàn Kiếm,Tây Hồ,GBFS,Hoàn Kiếm → Ba Đình → Tây Hồ,2,8.23265886185216,8.23265886185216,2,True,0.0,2,7,5,"Hoàn Kiếm, Ba Đình",ĐẠT,khớp cài đặt độc lập,5.551866666666667
+Hoàn Kiếm,Tây Hồ,A*,Hoàn Kiếm → Ba Đình → Tây Hồ,2,8.23265886185216,8.23265886185216,2,True,0.0,2,7,5,"Hoàn Kiếm, Ba Đình",ĐẠT,8.233 km / ngắn nhất 8.233 km,6.9893
+Hoàn Kiếm,Tây Hồ,UCS,Hoàn Kiếm → Ba Đình → Tây Hồ,2,8.23265886185216,8.23265886185216,2,True,0.0,5,10,6,"Hoàn Kiếm, Hai Bà Trưng, Ba Đình, Đống Đa, Long Biên",ĐẠT,8.233 km / ngắn nhất 8.233 km,10.240466666666666
+Hoàn Kiếm,Long Biên,BFS,Hoàn Kiếm → Long Biên,1,6.8,6.8,1,True,0.0,2,7,5,"Hoàn Kiếm, Ba Đình",ĐẠT,số cạnh 1 / ít nhất 1,3.9000666666666666
+Hoàn Kiếm,Long Biên,GBFS,Hoàn Kiếm → Long Biên,1,6.8,6.8,1,True,0.0,1,5,4,Hoàn Kiếm,ĐẠT,khớp cài đặt độc lập,4.128
+Hoàn Kiếm,Long Biên,A*,Hoàn Kiếm → Long Biên,1,6.8,6.8,1,True,0.0,1,5,4,Hoàn Kiếm,ĐẠT,6.800 km / ngắn nhất 6.800 km,4.469333333333333
+Hoàn Kiếm,Long Biên,UCS,Hoàn Kiếm → Long Biên,1,6.8,6.8,1,True,0.0,4,10,6,"Hoàn Kiếm, Hai Bà Trưng, Ba Đình, Đống Đa",ĐẠT,6.800 km / ngắn nhất 6.800 km,10.480766666666666
+Hoàn Kiếm,Cầu Giấy,BFS,Hoàn Kiếm → Ba Đình → Cầu Giấy,2,8.93265886185216,8.93265886185216,2,True,0.0,6,10,5,"Hoàn Kiếm, Ba Đình, Long Biên, Đống Đa, Hai Bà Trưng, Tây Hồ",ĐẠT,số cạnh 2 / ít nhất 2,6.268033333333333
+Hoàn Kiếm,Cầu Giấy,GBFS,Hoàn Kiếm → Ba Đình → Cầu Giấy,2,8.93265886185216,8.93265886185216,2,True,0.0,2,7,5,"Hoàn Kiếm, Ba Đình",ĐẠT,khớp cài đặt độc lập,6.5652
+Hoàn Kiếm,Cầu Giấy,A*,Hoàn Kiếm → Ba Đình → Cầu Giấy,2,8.93265886185216,8.93265886185216,2,True,0.0,3,8,5,"Hoàn Kiếm, Ba Đình, Đống Đa",ĐẠT,8.933 km / ngắn nhất 8.933 km,8.7538
+Hoàn Kiếm,Cầu Giấy,UCS,Hoàn Kiếm → Ba Đình → Cầu Giấy,2,8.93265886185216,8.93265886185216,2,True,0.0,8,13,6,"Hoàn Kiếm, Hai Bà Trưng, Ba Đình, Đống Đa, Long Biên, Tây Hồ, Hoàng Mai, Thanh Xuân",ĐẠT,8.933 km / ngắn nhất 8.933 km,15.439333333333334
+Hoàn Kiếm,Đống Đa,BFS,Hoàn Kiếm → Đống Đa,1,4.9,4.9,1,True,0.0,3,8,5,"Hoàn Kiếm, Ba Đình, Long Biên",ĐẠT,số cạnh 1 / ít nhất 1,4.495566666666667
+Hoàn Kiếm,Đống Đa,GBFS,Hoàn Kiếm → Đống Đa,1,4.9,4.9,1,True,0.0,1,5,4,Hoàn Kiếm,ĐẠT,khớp cài đặt độc lập,3.707233333333333
+Hoàn Kiếm,Đống Đa,A*,Hoàn Kiếm → Đống Đa,1,4.9,4.9,1,True,0.0,1,5,4,Hoàn Kiếm,ĐẠT,4.900 km / ngắn nhất 4.900 km,4.294433333333333
+Hoàn Kiếm,Đống Đa,UCS,Hoàn Kiếm → Đống Đa,1,4.9,4.9,1,True,0.0,3,9,6,"Hoàn Kiếm, Hai Bà Trưng, Ba Đình",ĐẠT,4.900 km / ngắn nhất 4.900 km,7.886266666666667
+Hoàn Kiếm,Hai Bà Trưng,BFS,Hoàn Kiếm → Hai Bà Trưng,1,2.6218491566068396,2.6218491566068396,1,True,0.0,4,9,5,"Hoàn Kiếm, Ba Đình, Long Biên, Đống Đa",ĐẠT,số cạnh 1 / ít nhất 1,6.185966666666666
+Hoàn Kiếm,Hai Bà Trưng,GBFS,Hoàn Kiếm → Hai Bà Trưng,1,2.6218491566068396,2.6218491566068396,1,True,0.0,1,5,4,Hoàn Kiếm,ĐẠT,khớp cài đặt độc lập,3.7043666666666666
+Hoàn Kiếm,Hai Bà Trưng,A*,Hoàn Kiếm → Hai Bà Trưng,1,2.6218491566068396,2.6218491566068396,1,True,0.0,1,5,4,Hoàn Kiếm,ĐẠT,2.622 km / ngắn nhất 2.622 km,4.316033333333333
+Hoàn Kiếm,Hai Bà Trưng,UCS,Hoàn Kiếm → Hai Bà Trưng,1,2.6218491566068396,2.6218491566068396,1,True,0.0,1,5,4,Hoàn Kiếm,ĐẠT,2.622 km / ngắn nhất 2.622 km,3.648966666666667
+Hoàn Kiếm,Hoàng Mai,BFS,Hoàn Kiếm → Long Biên → Hoàng Mai,2,16.8,8.32184915660684,2,False,101.87820860297893,7,11,5,"Hoàn Kiếm, Ba Đình, Long Biên, Đống Đa, Hai Bà Trưng, Tây Hồ, Cầu Giấy",ĐẠT,số cạnh 2 / ít nhất 2,8.3241
+Hoàn Kiếm,Hoàng Mai,GBFS,Hoàn Kiếm → Hai Bà Trưng → Hoàng Mai,2,8.32184915660684,8.32184915660684,2,True,0.0,2,7,5,"Hoàn Kiếm, Hai Bà Trưng",ĐẠT,khớp cài đặt độc lập,6.826866666666667
+Hoàn Kiếm,Hoàng Mai,A*,Hoàn Kiếm → Hai Bà Trưng → Hoàng Mai,2,8.32184915660684,8.32184915660684,2,True,0.0,2,7,5,"Hoàn Kiếm, Hai Bà Trưng",ĐẠT,8.322 km / ngắn nhất 8.322 km,6.984866666666667
+Hoàn Kiếm,Hoàng Mai,UCS,Hoàn Kiếm → Hai Bà Trưng → Hoàng Mai,2,8.32184915660684,8.32184915660684,2,True,0.0,6,11,6,"Hoàn Kiếm, Hai Bà Trưng, Ba Đình, Đống Đa, Long Biên, Tây Hồ",ĐẠT,8.322 km / ngắn nhất 8.322 km,11.4949
+Hoàn Kiếm,Thanh Xuân,BFS,Hoàn Kiếm → Đống Đa → Thanh Xuân,2,8.9,8.9,2,True,0.0,8,11,5,"Hoàn Kiếm, Ba Đình, Long Biên, Đống Đa, Hai Bà Trưng, Tây Hồ, Cầu Giấy, Hoàng Mai",ĐẠT,số cạnh 2 / ít nhất 2,8.431066666666668
+Hoàn Kiếm,Thanh Xuân,GBFS,Hoàn Kiếm → Đống Đa → Thanh Xuân,2,8.9,8.9,2,True,0.0,2,7,5,"Hoàn Kiếm, Đống Đa",ĐẠT,khớp cài đặt độc lập,5.5305
+Hoàn Kiếm,Thanh Xuân,A*,Hoàn Kiếm → Đống Đa → Thanh Xuân,2,8.9,8.9,2,True,0.0,4,11,7,"Hoàn Kiếm, Hai Bà Trưng, Đống Đa, Ba Đình",ĐẠT,8.900 km / ngắn nhất 8.900 km,14.895166666666666
+Hoàn Kiếm,Thanh Xuân,UCS,Hoàn Kiếm → Đống Đa → Thanh Xuân,2,8.9,8.9,2,True,0.0,7,11,6,"Hoàn Kiếm, Hai Bà Trưng, Ba Đình, Đống Đa, Long Biên, Tây Hồ, Hoàng Mai",ĐẠT,8.900 km / ngắn nhất 8.900 km,13.411166666666666
+Hoàn Kiếm,Nam Từ Liêm,BFS,Hoàn Kiếm → Ba Đình → Cầu Giấy → Nam Từ Liêm,3,17.83265886185216,17.1,3,False,4.284554747673441,10,12,5,"Hoàn Kiếm, Ba Đình, Long Biên, Đống Đa, Hai Bà Trưng, Tây Hồ, Cầu Giấy, Hoàng Mai, Thanh Xuân, Bắc Từ Liêm",ĐẠT,số cạnh 3 / ít nhất 3,8.4095
+Hoàn Kiếm,Nam Từ Liêm,GBFS,Hoàn Kiếm → Đống Đa → Cầu Giấy → Nam Từ Liêm,3,18.700000000000003,17.1,3,False,9.35672514619883,3,10,7,"Hoàn Kiếm, Đống Đa, Cầu Giấy",ĐẠT,khớp cài đặt độc lập,8.0188
+Hoàn Kiếm,Nam Từ Liêm,A*,Hoàn Kiếm → Đống Đa → Thanh Xuân → Nam Từ Liêm,3,17.1,17.1,3,True,0.0,7,14,7,"Hoàn Kiếm, Ba Đình, Đống Đa, Cầu Giấy, Hai Bà Trưng, Thanh Xuân, Tây Hồ",ĐẠT,17.100 km / ngắn nhất 17.100 km,19.48946666666667
+Hoàn Kiếm,Nam Từ Liêm,UCS,Hoàn Kiếm → Đống Đa → Thanh Xuân → Nam Từ Liêm,3,17.1,17.1,3,True,0.0,11,13,6,"Hoàn Kiếm, Hai Bà Trưng, Ba Đình, Đống Đa, Long Biên, Tây Hồ, Hoàng Mai, Thanh Xuân, Cầu Giấy, Bắc Từ Liêm, Hà Đông",ĐẠT,17.100 km / ngắn nhất 17.100 km,17.004266666666666
+Hoàn Kiếm,Bắc Từ Liêm,BFS,Hoàn Kiếm → Ba Đình → Tây Hồ → Bắc Từ Liêm,3,16.23265886185216,16.23265886185216,3,True,0.0,9,12,5,"Hoàn Kiếm, Ba Đình, Long Biên, Đống Đa, Hai Bà Trưng, Tây Hồ, Cầu Giấy, Hoàng Mai, Thanh Xuân",ĐẠT,số cạnh 3 / ít nhất 3,9.089633333333333
+Hoàn Kiếm,Bắc Từ Liêm,GBFS,Hoàn Kiếm → Ba Đình → Cầu Giấy → Bắc Từ Liêm,3,16.33265886185216,16.23265886185216,3,False,0.6160420227582675,3,10,7,"Hoàn Kiếm, Ba Đình, Cầu Giấy",ĐẠT,khớp cài đặt độc lập,7.9388000000000005
+Hoàn Kiếm,Bắc Từ Liêm,A*,Hoàn Kiếm → Ba Đình → Tây Hồ → Bắc Từ Liêm,3,16.23265886185216,16.23265886185216,3,True,0.0,6,11,5,"Hoàn Kiếm, Ba Đình, Đống Đa, Tây Hồ, Cầu Giấy, Hai Bà Trưng",ĐẠT,16.233 km / ngắn nhất 16.233 km,14.209866666666667
+Hoàn Kiếm,Bắc Từ Liêm,UCS,Hoàn Kiếm → Ba Đình → Tây Hồ → Bắc Từ Liêm,3,16.23265886185216,16.23265886185216,3,True,0.0,9,13,6,"Hoàn Kiếm, Hai Bà Trưng, Ba Đình, Đống Đa, Long Biên, Tây Hồ, Hoàng Mai, Thanh Xuân, Cầu Giấy",ĐẠT,16.233 km / ngắn nhất 16.233 km,16.545066666666667
+Hoàn Kiếm,Hà Đông,BFS,Hoàn Kiếm → Đống Đa → Thanh Xuân → Hà Đông,3,16.59780598612358,16.59780598612358,3,True,0.0,11,12,5,"Hoàn Kiếm, Ba Đình, Long Biên, Đống Đa, Hai Bà Trưng, Tây Hồ, Cầu Giấy, Hoàng Mai, Thanh Xuân, Bắc Từ Liêm, Nam Từ Liêm",ĐẠT,số cạnh 3 / ít nhất 3,8.905633333333332
+Hoàn Kiếm,Hà Đông,GBFS,Hoàn Kiếm → Đống Đa → Thanh Xuân → Hà Đông,3,16.59780598612358,16.59780598612358,3,True,0.0,3,10,7,"Hoàn Kiếm, Đống Đa, Thanh Xuân",ĐẠT,khớp cài đặt độc lập,7.9305
+Hoàn Kiếm,Hà Đông,A*,Hoàn Kiếm → Đống Đa → Thanh Xuân → Hà Đông,3,16.59780598612358,16.59780598612358,3,True,0.0,5,12,7,"Hoàn Kiếm, Ba Đình, Hai Bà Trưng, Đống Đa, Thanh Xuân",ĐẠT,16.598 km / ngắn nhất 16.598 km,14.371
+Hoàn Kiếm,Hà Đông,UCS,Hoàn Kiếm → Đống Đa → Thanh Xuân → Hà Đông,3,16.59780598612358,16.59780598612358,3,True,0.0,10,13,6,"Hoàn Kiếm, Hai Bà Trưng, Ba Đình, Đống Đa, Long Biên, Tây Hồ, Hoàng Mai, Thanh Xuân, Cầu Giấy, Bắc Từ Liêm",ĐẠT,16.598 km / ngắn nhất 16.598 km,16.061033333333334
+Tây Hồ,Ba Đình,BFS,Tây Hồ → Ba Đình,1,5.3,5.3,1,True,0.0,1,4,3,Tây Hồ,ĐẠT,số cạnh 1 / ít nhất 1,2.4043333333333337
+Tây Hồ,Ba Đình,GBFS,Tây Hồ → Ba Đình,1,5.3,5.3,1,True,0.0,1,4,3,Tây Hồ,ĐẠT,khớp cài đặt độc lập,2.990133333333333
+Tây Hồ,Ba Đình,A*,Tây Hồ → Ba Đình,1,5.3,5.3,1,True,0.0,1,4,3,Tây Hồ,ĐẠT,5.300 km / ngắn nhất 5.300 km,4.7431
+Tây Hồ,Ba Đình,UCS,Tây Hồ → Ba Đình,1,5.3,5.3,1,True,0.0,1,4,3,Tây Hồ,ĐẠT,5.300 km / ngắn nhất 5.300 km,3.1277
+Tây Hồ,Hoàn Kiếm,BFS,Tây Hồ → Ba Đình → Hoàn Kiếm,2,8.23265886185216,8.23265886185216,2,True,0.0,4,8,5,"Tây Hồ, Ba Đình, Cầu Giấy, Bắc Từ Liêm",ĐẠT,số cạnh 2 / ít nhất 2,4.886266666666667
+Tây Hồ,Hoàn Kiếm,GBFS,Tây Hồ → Ba Đình → Hoàn Kiếm,2,8.23265886185216,8.23265886185216,2,True,0.0,2,6,4,"Tây Hồ, Ba Đình",ĐẠT,khớp cài đặt độc lập,5.917
+Tây Hồ,Hoàn Kiếm,A*,Tây Hồ → Ba Đình → Hoàn Kiếm,2,8.23265886185216,8.23265886185216,2,True,0.0,2,6,4,"Tây Hồ, Ba Đình",ĐẠT,8.233 km / ngắn nhất 8.233 km,5.9195
+Tây Hồ,Hoàn Kiếm,UCS,Tây Hồ → Ba Đình → Hoàn Kiếm,2,8.23265886185216,8.23265886185216,2,True,0.0,3,7,4,"Tây Hồ, Ba Đình, Bắc Từ Liêm",ĐẠT,8.233 km / ngắn nhất 8.233 km,7.439633333333333
+Tây Hồ,Long Biên,BFS,Tây Hồ → Ba Đình → Hoàn Kiếm → Long Biên,3,15.032658861852159,15.032658861852159,3,True,0.0,8,12,5,"Tây Hồ, Ba Đình, Cầu Giấy, Bắc Từ Liêm, Hoàn Kiếm, Đống Đa, Thanh Xuân, Nam Từ Liêm",ĐẠT,số cạnh 3 / ít nhất 3,7.782233333333334
+Tây Hồ,Long Biên,GBFS,Tây Hồ → Ba Đình → Hoàn Kiếm → Long Biên,3,15.032658861852159,15.032658861852159,3,True,0.0,3,8,5,"Tây Hồ, Ba Đình, Hoàn Kiếm",ĐẠT,khớp cài đặt độc lập,6.5423
+Tây Hồ,Long Biên,A*,Tây Hồ → Ba Đình → Hoàn Kiếm → Long Biên,3,15.032658861852159,15.032658861852159,3,True,0.0,3,8,5,"Tây Hồ, Ba Đình, Hoàn Kiếm",ĐẠT,15.033 km / ngắn nhất 15.033 km,9.781833333333333
+Tây Hồ,Long Biên,UCS,Tây Hồ → Ba Đình → Hoàn Kiếm → Long Biên,3,15.032658861852159,15.032658861852159,3,True,0.0,8,13,5,"Tây Hồ, Ba Đình, Bắc Từ Liêm, Hoàn Kiếm, Đống Đa, Cầu Giấy, Hai Bà Trưng, Thanh Xuân",ĐẠT,15.033 km / ngắn nhất 15.033 km,16.334933333333332
+Tây Hồ,Cầu Giấy,BFS,Tây Hồ → Cầu Giấy,1,10.0,10.0,1,True,0.0,2,6,4,"Tây Hồ, Ba Đình",ĐẠT,số cạnh 1 / ít nhất 1,4.8985666666666665
+Tây Hồ,Cầu Giấy,GBFS,Tây Hồ → Cầu Giấy,1,10.0,10.0,1,True,0.0,1,4,3,Tây Hồ,ĐẠT,khớp cài đặt độc lập,3.049733333333333
+Tây Hồ,Cầu Giấy,A*,Tây Hồ → Cầu Giấy,1,10.0,10.0,1,True,0.0,2,6,4,"Tây Hồ, Ba Đình",ĐẠT,10.000 km / ngắn nhất 10.000 km,5.861666666666667
+Tây Hồ,Cầu Giấy,UCS,Tây Hồ → Cầu Giấy,1,10.0,10.0,1,True,0.0,5,10,5,"Tây Hồ, Ba Đình, Bắc Từ Liêm, Hoàn Kiếm, Đống Đa",ĐẠT,10.000 km / ngắn nhất 10.000 km,11.7499
+Tây Hồ,Đống Đa,BFS,Tây Hồ → Ba Đình → Đống Đa,2,9.0,9.0,2,True,0.0,5,10,5,"Tây Hồ, Ba Đình, Cầu Giấy, Bắc Từ Liêm, Hoàn Kiếm",ĐẠT,số cạnh 2 / ít nhất 2,5.905866666666666
+Tây Hồ,Đống Đa,GBFS,Tây Hồ → Ba Đình → Đống Đa,2,9.0,9.0,2,True,0.0,2,6,4,"Tây Hồ, Ba Đình",ĐẠT,khớp cài đặt độc lập,5.879033333333334
+Tây Hồ,Đống Đa,A*,Tây Hồ → Ba Đình → Đống Đa,2,9.0,9.0,2,True,0.0,2,6,4,"Tây Hồ, Ba Đình",ĐẠT,9.000 km / ngắn nhất 9.000 km,5.928766666666666
+Tây Hồ,Đống Đa,UCS,Tây Hồ → Ba Đình → Đống Đa,2,9.0,9.0,2,True,0.0,4,9,5,"Tây Hồ, Ba Đình, Bắc Từ Liêm, Hoàn Kiếm",ĐẠT,9.000 km / ngắn nhất 9.000 km,8.256866666666667
+Tây Hồ,Hai Bà Trưng,BFS,Tây Hồ → Ba Đình → Hoàn Kiếm → Hai Bà Trưng,3,10.854508018458999,10.854508018459,3,True,-1.1102230246251565e-14,9,12,5,"Tây Hồ, Ba Đình, Cầu Giấy, Bắc Từ Liêm, Hoàn Kiếm, Đống Đa, Thanh Xuân, Nam Từ Liêm, Long Biên",ĐẠT,số cạnh 3 / ít nhất 3,8.059333333333333
+Tây Hồ,Hai Bà Trưng,GBFS,Tây Hồ → Ba Đình → Hoàn Kiếm → Hai Bà Trưng,3,10.854508018458999,10.854508018459,3,True,-1.1102230246251565e-14,3,8,5,"Tây Hồ, Ba Đình, Hoàn Kiếm",ĐẠT,khớp cài đặt độc lập,6.491766666666666
+Tây Hồ,Hai Bà Trưng,A*,Tây Hồ → Ba Đình → Hoàn Kiếm → Hai Bà Trưng,3,10.854508018458999,10.854508018459,3,True,-1.1102230246251565e-14,3,8,5,"Tây Hồ, Ba Đình, Hoàn Kiếm",ĐẠT,10.855 km / ngắn nhất 10.855 km,9.172433333333332
+Tây Hồ,Hai Bà Trưng,UCS,Tây Hồ → Ba Đình → Hoàn Kiếm → Hai Bà Trưng,3,10.854508018458999,10.854508018459,3,True,-1.1102230246251565e-14,6,11,5,"Tây Hồ, Ba Đình, Bắc Từ Liêm, Hoàn Kiếm, Đống Đa, Cầu Giấy",ĐẠT,10.855 km / ngắn nhất 10.855 km,11.591833333333334
+Tây Hồ,Hoàng Mai,BFS,Tây Hồ → Cầu Giấy → Thanh Xuân → Hoàng Mai,3,25.200000000000003,16.554508018459,3,False,52.2243969552034,10,12,5,"Tây Hồ, Ba Đình, Cầu Giấy, Bắc Từ Liêm, Hoàn Kiếm, Đống Đa, Thanh Xuân, Nam Từ Liêm, Long Biên, Hai Bà Trưng",ĐẠT,số cạnh 3 / ít nhất 3,9.179766666666666
+Tây Hồ,Hoàng Mai,GBFS,Tây Hồ → Ba Đình → Đống Đa → Hai Bà Trưng → Hoàng Mai,4,19.4,16.554508018459,3,False,17.188623052815277,4,10,6,"Tây Hồ, Ba Đình, Đống Đa, Hai Bà Trưng",ĐẠT,khớp cài đặt độc lập,8.160266666666667
+Tây Hồ,Hoàng Mai,A*,Tây Hồ → Ba Đình → Hoàn Kiếm → Hai Bà Trưng → Hoàng Mai,4,16.554508018459,16.554508018459,3,True,0.0,5,11,6,"Tây Hồ, Ba Đình, Hoàn Kiếm, Hai Bà Trưng, Đống Đa",ĐẠT,16.555 km / ngắn nhất 16.555 km,12.461066666666667
+Tây Hồ,Hoàng Mai,UCS,Tây Hồ → Ba Đình → Hoàn Kiếm → Hai Bà Trưng → Hoàng Mai,4,16.554508018459,16.554508018459,3,True,0.0,9,13,5,"Tây Hồ, Ba Đình, Bắc Từ Liêm, Hoàn Kiếm, Đống Đa, Cầu Giấy, Hai Bà Trưng, Thanh Xuân, Long Biên",ĐẠT,16.555 km / ngắn nhất 16.555 km,17.230133333333335
+Tây Hồ,Thanh Xuân,BFS,Tây Hồ → Cầu Giấy → Thanh Xuân,2,15.4,13.0,2,False,18.461538461538463,6,10,5,"Tây Hồ, Ba Đình, Cầu Giấy, Bắc Từ Liêm, Hoàn Kiếm, Đống Đa",ĐẠT,số cạnh 2 / ít nhất 2,6.1388
+Tây Hồ,Thanh Xuân,GBFS,Tây Hồ → Cầu Giấy → Thanh Xuân,2,15.4,13.0,2,False,18.461538461538463,2,7,5,"Tây Hồ, Cầu Giấy",ĐẠT,khớp cài đặt độc lập,6.4681999999999995
+Tây Hồ,Thanh Xuân,A*,Tây Hồ → Ba Đình → Đống Đa → Thanh Xuân,3,13.0,13.0,2,True,0.0,3,8,5,"Tây Hồ, Ba Đình, Đống Đa",ĐẠT,13.000 km / ngắn nhất 13.000 km,8.727033333333333
+Tây Hồ,Thanh Xuân,UCS,Tây Hồ → Ba Đình → Đống Đa → Thanh Xuân,3,13.0,13.0,2,True,0.0,7,12,5,"Tây Hồ, Ba Đình, Bắc Từ Liêm, Hoàn Kiếm, Đống Đa, Cầu Giấy, Hai Bà Trưng",ĐẠT,13.000 km / ngắn nhất 13.000 km,13.3671
+Tây Hồ,Nam Từ Liêm,BFS,Tây Hồ → Cầu Giấy → Nam Từ Liêm,2,18.9,18.9,2,True,0.0,7,12,5,"Tây Hồ, Ba Đình, Cầu Giấy, Bắc Từ Liêm, Hoàn Kiếm, Đống Đa, Thanh Xuân",ĐẠT,số cạnh 2 / ít nhất 2,8.423566666666668
+Tây Hồ,Nam Từ Liêm,GBFS,Tây Hồ → Cầu Giấy → Nam Từ Liêm,2,18.9,18.9,2,True,0.0,2,7,5,"Tây Hồ, Cầu Giấy",ĐẠT,khớp cài đặt độc lập,5.472533333333334
+Tây Hồ,Nam Từ Liêm,A*,Tây Hồ → Cầu Giấy → Nam Từ Liêm,2,18.9,18.9,2,True,0.0,6,12,6,"Tây Hồ, Ba Đình, Cầu Giấy, Bắc Từ Liêm, Đống Đa, Hoàn Kiếm",ĐẠT,18.900 km / ngắn nhất 18.900 km,13.3399
+Tây Hồ,Nam Từ Liêm,UCS,Tây Hồ → Cầu Giấy → Nam Từ Liêm,2,18.9,18.9,2,True,0.0,10,13,5,"Tây Hồ, Ba Đình, Bắc Từ Liêm, Hoàn Kiếm, Đống Đa, Cầu Giấy, Hai Bà Trưng, Thanh Xuân, Long Biên, Hoàng Mai",ĐẠT,18.900 km / ngắn nhất 18.900 km,19.253833333333333
+Tây Hồ,Bắc Từ Liêm,BFS,Tây Hồ → Bắc Từ Liêm,1,8.0,8.0,1,True,0.0,3,8,5,"Tây Hồ, Ba Đình, Cầu Giấy",ĐẠT,số cạnh 1 / ít nhất 1,4.5333000000000006
+Tây Hồ,Bắc Từ Liêm,GBFS,Tây Hồ → Bắc Từ Liêm,1,8.0,8.0,1,True,0.0,1,4,3,Tây Hồ,ĐẠT,khớp cài đặt độc lập,3.0314
+Tây Hồ,Bắc Từ Liêm,A*,Tây Hồ → Bắc Từ Liêm,1,8.0,8.0,1,True,0.0,1,4,3,Tây Hồ,ĐẠT,8.000 km / ngắn nhất 8.000 km,3.5610333333333335
+Tây Hồ,Bắc Từ Liêm,UCS,Tây Hồ → Bắc Từ Liêm,1,8.0,8.0,1,True,0.0,2,6,4,"Tây Hồ, Ba Đình",ĐẠT,8.000 km / ngắn nhất 8.000 km,6.116733333333333
+Tây Hồ,Hà Đông,BFS,Tây Hồ → Cầu Giấy → Thanh Xuân → Hà Đông,3,23.09780598612358,20.697805986123576,3,False,11.59543191007315,11,12,5,"Tây Hồ, Ba Đình, Cầu Giấy, Bắc Từ Liêm, Hoàn Kiếm, Đống Đa, Thanh Xuân, Nam Từ Liêm, Long Biên, Hai Bà Trưng, Hoàng Mai",ĐẠT,số cạnh 3 / ít nhất 3,8.437100000000001
+Tây Hồ,Hà Đông,GBFS,Tây Hồ → Cầu Giấy → Nam Từ Liêm → Hà Đông,3,25.48869607737373,20.697805986123576,3,False,23.146849934056334,3,8,5,"Tây Hồ, Cầu Giấy, Nam Từ Liêm",ĐẠT,khớp cài đặt độc lập,6.549833333333333
+Tây Hồ,Hà Đông,A*,Tây Hồ → Ba Đình → Đống Đa → Thanh Xuân → Hà Đông,4,20.697805986123576,20.697805986123576,3,True,0.0,5,11,6,"Tây Hồ, Ba Đình, Đống Đa, Cầu Giấy, Thanh Xuân",ĐẠT,20.698 km / ngắn nhất 20.698 km,14.364266666666666
+Tây Hồ,Hà Đông,UCS,Tây Hồ → Ba Đình → Đống Đa → Thanh Xuân → Hà Đông,4,20.697805986123576,20.697805986123576,3,True,0.0,11,13,5,"Tây Hồ, Ba Đình, Bắc Từ Liêm, Hoàn Kiếm, Đống Đa, Cầu Giấy, Hai Bà Trưng, Thanh Xuân, Long Biên, Hoàng Mai, Nam Từ Liêm",ĐẠT,20.698 km / ngắn nhất 20.698 km,17.049433333333333
+Long Biên,Ba Đình,BFS,Long Biên → Hoàn Kiếm → Ba Đình,2,9.73265886185216,9.73265886185216,2,True,0.0,4,7,4,"Long Biên, Hoàn Kiếm, Hai Bà Trưng, Hoàng Mai",ĐẠT,số cạnh 2 / ít nhất 2,4.403933333333334
+Long Biên,Ba Đình,GBFS,Long Biên → Hoàn Kiếm → Ba Đình,2,9.73265886185216,9.73265886185216,2,True,0.0,2,6,4,"Long Biên, Hoàn Kiếm",ĐẠT,khớp cài đặt độc lập,4.697566666666667
+Long Biên,Ba Đình,A*,Long Biên → Hoàn Kiếm → Ba Đình,2,9.73265886185216,9.73265886185216,2,True,0.0,2,6,4,"Long Biên, Hoàn Kiếm",ĐẠT,9.733 km / ngắn nhất 9.733 km,6.989366666666667
+Long Biên,Ba Đình,UCS,Long Biên → Hoàn Kiếm → Ba Đình,2,9.73265886185216,9.73265886185216,2,True,0.0,3,7,4,"Long Biên, Hoàn Kiếm, Hai Bà Trưng",ĐẠT,9.733 km / ngắn nhất 9.733 km,6.727966666666666
+Long Biên,Hoàn Kiếm,BFS,Long Biên → Hoàn Kiếm,1,6.8,6.8,1,True,0.0,1,4,3,Long Biên,ĐẠT,số cạnh 1 / ít nhất 1,2.3643
+Long Biên,Hoàn Kiếm,GBFS,Long Biên → Hoàn Kiếm,1,6.8,6.8,1,True,0.0,1,4,3,Long Biên,ĐẠT,khớp cài đặt độc lập,3.0053
+Long Biên,Hoàn Kiếm,A*,Long Biên → Hoàn Kiếm,1,6.8,6.8,1,True,0.0,1,4,3,Long Biên,ĐẠT,6.800 km / ngắn nhất 6.800 km,3.6973333333333334
+Long Biên,Hoàn Kiếm,UCS,Long Biên → Hoàn Kiếm,1,6.8,6.8,1,True,0.0,1,4,3,Long Biên,ĐẠT,6.800 km / ngắn nhất 6.800 km,3.1554333333333333
+Long Biên,Tây Hồ,BFS,Long Biên → Hoàn Kiếm → Ba Đình → Tây Hồ,3,15.032658861852159,15.032658861852159,3,True,0.0,7,11,4,"Long Biên, Hoàn Kiếm, Hai Bà Trưng, Hoàng Mai, Ba Đình, Đống Đa, Thanh Xuân",ĐẠT,số cạnh 3 / ít nhất 3,7.0848
+Long Biên,Tây Hồ,GBFS,Long Biên → Hoàn Kiếm → Ba Đình → Tây Hồ,3,15.032658861852159,15.032658861852159,3,True,0.0,3,8,5,"Long Biên, Hoàn Kiếm, Ba Đình",ĐẠT,khớp cài đặt độc lập,6.5309333333333335
+Long Biên,Tây Hồ,A*,Long Biên → Hoàn Kiếm → Ba Đình → Tây Hồ,3,15.032658861852159,15.032658861852159,3,True,0.0,3,8,5,"Long Biên, Hoàn Kiếm, Ba Đình",ĐẠT,15.033 km / ngắn nhất 15.033 km,8.251100000000001
+Long Biên,Tây Hồ,UCS,Long Biên → Hoàn Kiếm → Ba Đình → Tây Hồ,3,15.032658861852159,15.032658861852159,3,True,0.0,6,9,5,"Long Biên, Hoàn Kiếm, Hai Bà Trưng, Ba Đình, Hoàng Mai, Đống Đa",ĐẠT,15.033 km / ngắn nhất 15.033 km,11.582366666666667
+Long Biên,Cầu Giấy,BFS,Long Biên → Hoàn Kiếm → Ba Đình → Cầu Giấy,3,15.73265886185216,15.73265886185216,3,True,0.0,8,12,4,"Long Biên, Hoàn Kiếm, Hai Bà Trưng, Hoàng Mai, Ba Đình, Đống Đa, Thanh Xuân, Tây Hồ",ĐẠT,số cạnh 3 / ít nhất 3,8.883899999999999
+Long Biên,Cầu Giấy,GBFS,Long Biên → Hoàn Kiếm → Ba Đình → Cầu Giấy,3,15.73265886185216,15.73265886185216,3,True,0.0,3,8,5,"Long Biên, Hoàn Kiếm, Ba Đình",ĐẠT,khớp cài đặt độc lập,7.767666666666667
+Long Biên,Cầu Giấy,A*,Long Biên → Hoàn Kiếm → Ba Đình → Cầu Giấy,3,15.73265886185216,15.73265886185216,3,True,0.0,5,9,5,"Long Biên, Hoàn Kiếm, Ba Đình, Hai Bà Trưng, Đống Đa",ĐẠT,15.733 km / ngắn nhất 15.733 km,11.198633333333333
+Long Biên,Cầu Giấy,UCS,Long Biên → Hoàn Kiếm → Ba Đình → Cầu Giấy,3,15.73265886185216,15.73265886185216,3,True,0.0,8,12,5,"Long Biên, Hoàn Kiếm, Hai Bà Trưng, Ba Đình, Hoàng Mai, Đống Đa, Tây Hồ, Thanh Xuân",ĐẠT,15.733 km / ngắn nhất 15.733 km,14.825433333333333
+Long Biên,Đống Đa,BFS,Long Biên → Hoàn Kiếm → Đống Đa,2,11.7,11.7,2,True,0.0,5,9,4,"Long Biên, Hoàn Kiếm, Hai Bà Trưng, Hoàng Mai, Ba Đình",ĐẠT,số cạnh 2 / ít nhất 2,5.480600000000001
+Long Biên,Đống Đa,GBFS,Long Biên → Hoàn Kiếm → Đống Đa,2,11.7,11.7,2,True,0.0,2,6,4,"Long Biên, Hoàn Kiếm",ĐẠT,khớp cài đặt độc lập,5.8945
+Long Biên,Đống Đa,A*,Long Biên → Hoàn Kiếm → Đống Đa,2,11.7,11.7,2,True,0.0,3,7,4,"Long Biên, Hoàn Kiếm, Hai Bà Trưng",ĐẠT,11.700 km / ngắn nhất 11.700 km,7.8197
+Long Biên,Đống Đa,UCS,Long Biên → Hoàn Kiếm → Đống Đa,2,11.7,11.7,2,True,0.0,5,9,5,"Long Biên, Hoàn Kiếm, Hai Bà Trưng, Ba Đình, Hoàng Mai",ĐẠT,11.700 km / ngắn nhất 11.700 km,9.364666666666666
+Long Biên,Hai Bà Trưng,BFS,Long Biên → Hai Bà Trưng,1,8.0,8.0,1,True,0.0,2,6,4,"Long Biên, Hoàn Kiếm",ĐẠT,số cạnh 1 / ít nhất 1,3.4523
+Long Biên,Hai Bà Trưng,GBFS,Long Biên → Hai Bà Trưng,1,8.0,8.0,1,True,0.0,1,4,3,Long Biên,ĐẠT,khớp cài đặt độc lập,3.1981333333333333
+Long Biên,Hai Bà Trưng,A*,Long Biên → Hai Bà Trưng,1,8.0,8.0,1,True,0.0,1,4,3,Long Biên,ĐẠT,8.000 km / ngắn nhất 8.000 km,3.657366666666667
+Long Biên,Hai Bà Trưng,UCS,Long Biên → Hai Bà Trưng,1,8.0,8.0,1,True,0.0,2,6,4,"Long Biên, Hoàn Kiếm",ĐẠT,8.000 km / ngắn nhất 8.000 km,6.9204
+Long Biên,Hoàng Mai,BFS,Long Biên → Hoàng Mai,1,10.0,10.0,1,True,0.0,3,7,4,"Long Biên, Hoàn Kiếm, Hai Bà Trưng",ĐẠT,số cạnh 1 / ít nhất 1,4.150433333333333
+Long Biên,Hoàng Mai,GBFS,Long Biên → Hoàng Mai,1,10.0,10.0,1,True,0.0,1,4,3,Long Biên,ĐẠT,khớp cài đặt độc lập,3.033266666666667
+Long Biên,Hoàng Mai,A*,Long Biên → Hoàng Mai,1,10.0,10.0,1,True,0.0,1,4,3,Long Biên,ĐẠT,10.000 km / ngắn nhất 10.000 km,3.6304000000000003
+Long Biên,Hoàng Mai,UCS,Long Biên → Hoàng Mai,1,10.0,10.0,1,True,0.0,4,9,5,"Long Biên, Hoàn Kiếm, Hai Bà Trưng, Ba Đình",ĐẠT,10.000 km / ngắn nhất 10.000 km,8.501366666666668
+Long Biên,Thanh Xuân,BFS,Long Biên → Hai Bà Trưng → Thanh Xuân,2,15.1,15.1,2,True,0.0,6,9,4,"Long Biên, Hoàn Kiếm, Hai Bà Trưng, Hoàng Mai, Ba Đình, Đống Đa",ĐẠT,số cạnh 2 / ít nhất 2,5.757433333333333
+Long Biên,Thanh Xuân,GBFS,Long Biên → Hai Bà Trưng → Thanh Xuân,2,15.1,15.1,2,True,0.0,2,6,4,"Long Biên, Hai Bà Trưng",ĐẠT,khớp cài đặt độc lập,4.7512
+Long Biên,Thanh Xuân,A*,Long Biên → Hai Bà Trưng → Thanh Xuân,2,15.1,15.1,2,True,0.0,5,10,5,"Long Biên, Hoàn Kiếm, Hai Bà Trưng, Đống Đa, Ba Đình",ĐẠT,15.100 km / ngắn nhất 15.100 km,12.729833333333334
+Long Biên,Thanh Xuân,UCS,Long Biên → Hai Bà Trưng → Thanh Xuân,2,15.1,15.1,2,True,0.0,7,10,5,"Long Biên, Hoàn Kiếm, Hai Bà Trưng, Ba Đình, Hoàng Mai, Đống Đa, Tây Hồ",ĐẠT,15.100 km / ngắn nhất 15.100 km,11.961799999999998
+Long Biên,Nam Từ Liêm,BFS,Long Biên → Hai Bà Trưng → Thanh Xuân → Nam Từ Liêm,3,23.299999999999997,23.299999999999997,3,True,0.0,9,12,4,"Long Biên, Hoàn Kiếm, Hai Bà Trưng, Hoàng Mai, Ba Đình, Đống Đa, Thanh Xuân, Tây Hồ, Cầu Giấy",ĐẠT,số cạnh 3 / ít nhất 3,7.990066666666666
+Long Biên,Nam Từ Liêm,GBFS,Long Biên → Hoàn Kiếm → Đống Đa → Cầu Giấy → Nam Từ Liêm,4,25.5,23.299999999999997,3,False,9.442060085836923,4,11,7,"Long Biên, Hoàn Kiếm, Đống Đa, Cầu Giấy",ĐẠT,khớp cài đặt độc lập,9.300466666666667
+Long Biên,Nam Từ Liêm,A*,Long Biên → Hai Bà Trưng → Thanh Xuân → Nam Từ Liêm,3,23.299999999999997,23.299999999999997,3,True,0.0,8,13,6,"Long Biên, Hoàn Kiếm, Ba Đình, Hai Bà Trưng, Đống Đa, Cầu Giấy, Thanh Xuân, Hoàng Mai",ĐẠT,23.300 km / ngắn nhất 23.300 km,17.1358
+Long Biên,Nam Từ Liêm,UCS,Long Biên → Hai Bà Trưng → Thanh Xuân → Nam Từ Liêm,3,23.299999999999997,23.299999999999997,3,True,0.0,11,12,5,"Long Biên, Hoàn Kiếm, Hai Bà Trưng, Ba Đình, Hoàng Mai, Đống Đa, Tây Hồ, Thanh Xuân, Cầu Giấy, Hà Đông, Bắc Từ Liêm",ĐẠT,23.300 km / ngắn nhất 23.300 km,17.670066666666667
+Long Biên,Bắc Từ Liêm,BFS,Long Biên → Hoàn Kiếm → Ba Đình → Tây Hồ → Bắc Từ Liêm,4,23.03265886185216,23.03265886185216,4,True,0.0,11,12,4,"Long Biên, Hoàn Kiếm, Hai Bà Trưng, Hoàng Mai, Ba Đình, Đống Đa, Thanh Xuân, Tây Hồ, Cầu Giấy, Nam Từ Liêm, Hà Đông",ĐẠT,số cạnh 4 / ít nhất 4,9.656733333333333
+Long Biên,Bắc Từ Liêm,GBFS,Long Biên → Hoàn Kiếm → Ba Đình → Cầu Giấy → Bắc Từ Liêm,4,23.13265886185216,23.03265886185216,4,False,0.4341661142979403,4,11,7,"Long Biên, Hoàn Kiếm, Ba Đình, Cầu Giấy",ĐẠT,khớp cài đặt độc lập,8.834633333333333
+Long Biên,Bắc Từ Liêm,A*,Long Biên → Hoàn Kiếm → Ba Đình → Tây Hồ → Bắc Từ Liêm,4,23.03265886185216,23.03265886185216,4,True,0.0,7,11,5,"Long Biên, Hoàn Kiếm, Ba Đình, Hai Bà Trưng, Đống Đa, Tây Hồ, Cầu Giấy",ĐẠT,23.033 km / ngắn nhất 23.033 km,14.486033333333333
+Long Biên,Bắc Từ Liêm,UCS,Long Biên → Hoàn Kiếm → Ba Đình → Tây Hồ → Bắc Từ Liêm,4,23.03265886185216,23.03265886185216,4,True,0.0,10,12,5,"Long Biên, Hoàn Kiếm, Hai Bà Trưng, Ba Đình, Hoàng Mai, Đống Đa, Tây Hồ, Thanh Xuân, Cầu Giấy, Hà Đông",ĐẠT,23.033 km / ngắn nhất 23.033 km,16.91783333333333
+Long Biên,Hà Đông,BFS,Long Biên → Hai Bà Trưng → Thanh Xuân → Hà Đông,3,22.797805986123578,22.797805986123578,3,True,0.0,10,12,4,"Long Biên, Hoàn Kiếm, Hai Bà Trưng, Hoàng Mai, Ba Đình, Đống Đa, Thanh Xuân, Tây Hồ, Cầu Giấy, Nam Từ Liêm",ĐẠT,số cạnh 3 / ít nhất 3,9.525566666666668
+Long Biên,Hà Đông,GBFS,Long Biên → Hoàng Mai → Thanh Xuân → Hà Đông,3,27.49780598612358,22.797805986123578,3,False,20.616018939983817,3,9,6,"Long Biên, Hoàng Mai, Thanh Xuân",ĐẠT,khớp cài đặt độc lập,8.1432
+Long Biên,Hà Đông,A*,Long Biên → Hai Bà Trưng → Thanh Xuân → Hà Đông,3,22.797805986123578,22.797805986123578,3,True,0.0,7,11,4,"Long Biên, Hoàn Kiếm, Hai Bà Trưng, Hoàng Mai, Ba Đình, Đống Đa, Thanh Xuân",ĐẠT,22.798 km / ngắn nhất 22.798 km,13.8584
+Long Biên,Hà Đông,UCS,Long Biên → Hai Bà Trưng → Thanh Xuân → Hà Đông,3,22.797805986123578,22.797805986123578,3,True,0.0,9,12,5,"Long Biên, Hoàn Kiếm, Hai Bà Trưng, Ba Đình, Hoàng Mai, Đống Đa, Tây Hồ, Thanh Xuân, Cầu Giấy",ĐẠT,22.798 km / ngắn nhất 22.798 km,16.0186
+Cầu Giấy,Ba Đình,BFS,Cầu Giấy → Ba Đình,1,6.0,6.0,1,True,0.0,1,7,6,Cầu Giấy,ĐẠT,số cạnh 1 / ít nhất 1,3.6072333333333333
+Cầu Giấy,Ba Đình,GBFS,Cầu Giấy → Ba Đình,1,6.0,6.0,1,True,0.0,1,7,6,Cầu Giấy,ĐẠT,khớp cài đặt độc lập,5.0538
+Cầu Giấy,Ba Đình,A*,Cầu Giấy → Ba Đình,1,6.0,6.0,1,True,0.0,1,7,6,Cầu Giấy,ĐẠT,6.000 km / ngắn nhất 6.000 km,7.2466
+Cầu Giấy,Ba Đình,UCS,Cầu Giấy → Ba Đình,1,6.0,6.0,1,True,0.0,3,11,8,"Cầu Giấy, Đống Đa, Thanh Xuân",ĐẠT,6.000 km / ngắn nhất 6.000 km,9.550600000000001
+Cầu Giấy,Hoàn Kiếm,BFS,Cầu Giấy → Ba Đình → Hoàn Kiếm,2,8.93265886185216,8.93265886185216,2,True,0.0,7,11,6,"Cầu Giấy, Ba Đình, Tây Hồ, Đống Đa, Thanh Xuân, Nam Từ Liêm, Bắc Từ Liêm",ĐẠT,số cạnh 2 / ít nhất 2,7.888066666666667
+Cầu Giấy,Hoàn Kiếm,GBFS,Cầu Giấy → Ba Đình → Hoàn Kiếm,2,8.93265886185216,8.93265886185216,2,True,0.0,2,8,6,"Cầu Giấy, Ba Đình",ĐẠT,khớp cài đặt độc lập,6.0381
+Cầu Giấy,Hoàn Kiếm,A*,Cầu Giấy → Ba Đình → Hoàn Kiếm,2,8.93265886185216,8.93265886185216,2,True,0.0,3,10,7,"Cầu Giấy, Đống Đa, Ba Đình",ĐẠT,8.933 km / ngắn nhất 8.933 km,9.760433333333333
+Cầu Giấy,Hoàn Kiếm,UCS,Cầu Giấy → Ba Đình → Hoàn Kiếm,2,8.93265886185216,8.93265886185216,2,True,0.0,6,12,8,"Cầu Giấy, Đống Đa, Thanh Xuân, Ba Đình, Bắc Từ Liêm, Nam Từ Liêm",ĐẠT,8.933 km / ngắn nhất 8.933 km,16.83833333333333
+Cầu Giấy,Tây Hồ,BFS,Cầu Giấy → Tây Hồ,1,10.0,10.0,1,True,0.0,2,8,6,"Cầu Giấy, Ba Đình",ĐẠT,số cạnh 1 / ít nhất 1,4.259533333333334
+Cầu Giấy,Tây Hồ,GBFS,Cầu Giấy → Tây Hồ,1,10.0,10.0,1,True,0.0,1,7,6,Cầu Giấy,ĐẠT,khớp cài đặt độc lập,5.059266666666667
+Cầu Giấy,Tây Hồ,A*,Cầu Giấy → Tây Hồ,1,10.0,10.0,1,True,0.0,2,8,6,"Cầu Giấy, Ba Đình",ĐẠT,10.000 km / ngắn nhất 10.000 km,7.533566666666666
+Cầu Giấy,Tây Hồ,UCS,Cầu Giấy → Tây Hồ,1,10.0,10.0,1,True,0.0,8,13,8,"Cầu Giấy, Đống Đa, Thanh Xuân, Ba Đình, Bắc Từ Liêm, Nam Từ Liêm, Hoàn Kiếm, Hai Bà Trưng",ĐẠT,10.000 km / ngắn nhất 10.000 km,16.482633333333336
+Cầu Giấy,Long Biên,BFS,Cầu Giấy → Ba Đình → Hoàn Kiếm → Long Biên,3,15.73265886185216,15.732658861852158,3,True,2.220446049250313e-14,11,12,6,"Cầu Giấy, Ba Đình, Tây Hồ, Đống Đa, Thanh Xuân, Nam Từ Liêm, Bắc Từ Liêm, Hoàn Kiếm, Hai Bà Trưng, Hoàng Mai, Hà Đông",ĐẠT,số cạnh 3 / ít nhất 3,9.455866666666667
+Cầu Giấy,Long Biên,GBFS,Cầu Giấy → Ba Đình → Hoàn Kiếm → Long Biên,3,15.73265886185216,15.732658861852158,3,True,2.220446049250313e-14,3,10,7,"Cầu Giấy, Ba Đình, Hoàn Kiếm",ĐẠT,khớp cài đặt độc lập,7.8713999999999995
+Cầu Giấy,Long Biên,A*,Cầu Giấy → Ba Đình → Hoàn Kiếm → Long Biên,3,15.73265886185216,15.732658861852158,3,True,2.220446049250313e-14,6,14,7,"Cầu Giấy, Đống Đa, Ba Đình, Hoàn Kiếm, Hai Bà Trưng, Thanh Xuân",ĐẠT,15.733 km / ngắn nhất 15.733 km,19.4022
+Cầu Giấy,Long Biên,UCS,Cầu Giấy → Ba Đình → Hoàn Kiếm → Long Biên,3,15.73265886185216,15.732658861852158,3,True,2.220446049250313e-14,11,13,8,"Cầu Giấy, Đống Đa, Thanh Xuân, Ba Đình, Bắc Từ Liêm, Nam Từ Liêm, Hoàn Kiếm, Hai Bà Trưng, Tây Hồ, Hà Đông, Hoàng Mai",ĐẠT,15.733 km / ngắn nhất 15.733 km,16.9005
+Cầu Giấy,Đống Đa,BFS,Cầu Giấy → Đống Đa,1,4.9,4.9,1,True,0.0,3,8,6,"Cầu Giấy, Ba Đình, Tây Hồ",ĐẠT,số cạnh 1 / ít nhất 1,4.6004
+Cầu Giấy,Đống Đa,GBFS,Cầu Giấy → Đống Đa,1,4.9,4.9,1,True,0.0,1,7,6,Cầu Giấy,ĐẠT,khớp cài đặt độc lập,5.021
+Cầu Giấy,Đống Đa,A*,Cầu Giấy → Đống Đa,1,4.9,4.9,1,True,0.0,1,7,6,Cầu Giấy,ĐẠT,4.900 km / ngắn nhất 4.900 km,5.732866666666667
+Cầu Giấy,Đống Đa,UCS,Cầu Giấy → Đống Đa,1,4.9,4.9,1,True,0.0,1,7,6,Cầu Giấy,ĐẠT,4.900 km / ngắn nhất 4.900 km,4.8746
+Cầu Giấy,Hai Bà Trưng,BFS,Cầu Giấy → Đống Đa → Hai Bà Trưng,2,9.600000000000001,9.600000000000001,2,True,0.0,8,12,6,"Cầu Giấy, Ba Đình, Tây Hồ, Đống Đa, Thanh Xuân, Nam Từ Liêm, Bắc Từ Liêm, Hoàn Kiếm",ĐẠT,số cạnh 2 / ít nhất 2,7.540166666666667
+Cầu Giấy,Hai Bà Trưng,GBFS,Cầu Giấy → Đống Đa → Hai Bà Trưng,2,9.600000000000001,9.600000000000001,2,True,0.0,2,9,7,"Cầu Giấy, Đống Đa",ĐẠT,khớp cài đặt độc lập,6.710866666666667
+Cầu Giấy,Hai Bà Trưng,A*,Cầu Giấy → Đống Đa → Hai Bà Trưng,2,9.600000000000001,9.600000000000001,2,True,0.0,2,9,7,"Cầu Giấy, Đống Đa",ĐẠT,9.600 km / ngắn nhất 9.600 km,9.443366666666666
+Cầu Giấy,Hai Bà Trưng,UCS,Cầu Giấy → Đống Đa → Hai Bà Trưng,2,9.600000000000001,9.600000000000001,2,True,0.0,7,13,8,"Cầu Giấy, Đống Đa, Thanh Xuân, Ba Đình, Bắc Từ Liêm, Nam Từ Liêm, Hoàn Kiếm",ĐẠT,9.600 km / ngắn nhất 9.600 km,14.104
+Cầu Giấy,Hoàng Mai,BFS,Cầu Giấy → Thanh Xuân → Hoàng Mai,2,15.200000000000001,15.200000000000001,2,True,0.0,9,12,6,"Cầu Giấy, Ba Đình, Tây Hồ, Đống Đa, Thanh Xuân, Nam Từ Liêm, Bắc Từ Liêm, Hoàn Kiếm, Hai Bà Trưng",ĐẠT,số cạnh 2 / ít nhất 2,7.783166666666667
+Cầu Giấy,Hoàng Mai,GBFS,Cầu Giấy → Thanh Xuân → Hoàng Mai,2,15.200000000000001,15.200000000000001,2,True,0.0,2,10,8,"Cầu Giấy, Thanh Xuân",ĐẠT,khớp cài đặt độc lập,7.406466666666666
+Cầu Giấy,Hoàng Mai,A*,Cầu Giấy → Thanh Xuân → Hoàng Mai,2,15.200000000000001,15.200000000000001,2,True,0.0,6,15,9,"Cầu Giấy, Thanh Xuân, Đống Đa, Hai Bà Trưng, Ba Đình, Hoàn Kiếm",ĐẠT,15.200 km / ngắn nhất 15.200 km,17.359033333333333
+Cầu Giấy,Hoàng Mai,UCS,Cầu Giấy → Thanh Xuân → Hoàng Mai,2,15.200000000000001,15.200000000000001,2,True,0.0,10,13,8,"Cầu Giấy, Đống Đa, Thanh Xuân, Ba Đình, Bắc Từ Liêm, Nam Từ Liêm, Hoàn Kiếm, Hai Bà Trưng, Tây Hồ, Hà Đông",ĐẠT,15.200 km / ngắn nhất 15.200 km,16.139033333333334
+Cầu Giấy,Thanh Xuân,BFS,Cầu Giấy → Thanh Xuân,1,5.4,5.4,1,True,0.0,4,9,6,"Cầu Giấy, Ba Đình, Tây Hồ, Đống Đa",ĐẠT,số cạnh 1 / ít nhất 1,5.137533333333334
+Cầu Giấy,Thanh Xuân,GBFS,Cầu Giấy → Thanh Xuân,1,5.4,5.4,1,True,0.0,1,7,6,Cầu Giấy,ĐẠT,khớp cài đặt độc lập,4.9801
+Cầu Giấy,Thanh Xuân,A*,Cầu Giấy → Thanh Xuân,1,5.4,5.4,1,True,0.0,1,7,6,Cầu Giấy,ĐẠT,5.400 km / ngắn nhất 5.400 km,5.787333333333333
+Cầu Giấy,Thanh Xuân,UCS,Cầu Giấy → Thanh Xuân,1,5.4,5.4,1,True,0.0,2,9,7,"Cầu Giấy, Đống Đa",ĐẠT,5.400 km / ngắn nhất 5.400 km,7.142933333333334
+Cầu Giấy,Nam Từ Liêm,BFS,Cầu Giấy → Nam Từ Liêm,1,8.9,8.9,1,True,0.0,5,11,6,"Cầu Giấy, Ba Đình, Tây Hồ, Đống Đa, Thanh Xuân",ĐẠT,số cạnh 1 / ít nhất 1,7.5549333333333335
+Cầu Giấy,Nam Từ Liêm,GBFS,Cầu Giấy → Nam Từ Liêm,1,8.9,8.9,1,True,0.0,1,7,6,Cầu Giấy,ĐẠT,khớp cài đặt độc lập,6.177133333333333
+Cầu Giấy,Nam Từ Liêm,A*,Cầu Giấy → Nam Từ Liêm,1,8.9,8.9,1,True,0.0,1,7,6,Cầu Giấy,ĐẠT,8.900 km / ngắn nhất 8.900 km,5.8088
+Cầu Giấy,Nam Từ Liêm,UCS,Cầu Giấy → Nam Từ Liêm,1,8.9,8.9,1,True,0.0,5,12,8,"Cầu Giấy, Đống Đa, Thanh Xuân, Ba Đình, Bắc Từ Liêm",ĐẠT,8.900 km / ngắn nhất 8.900 km,11.9114
+Cầu Giấy,Bắc Từ Liêm,BFS,Cầu Giấy → Bắc Từ Liêm,1,7.4,7.4,1,True,0.0,6,11,6,"Cầu Giấy, Ba Đình, Tây Hồ, Đống Đa, Thanh Xuân, Nam Từ Liêm",ĐẠT,số cạnh 1 / ít nhất 1,6.586
+Cầu Giấy,Bắc Từ Liêm,GBFS,Cầu Giấy → Bắc Từ Liêm,1,7.4,7.4,1,True,0.0,1,7,6,Cầu Giấy,ĐẠT,khớp cài đặt độc lập,5.3463
+Cầu Giấy,Bắc Từ Liêm,A*,Cầu Giấy → Bắc Từ Liêm,1,7.4,7.4,1,True,0.0,1,7,6,Cầu Giấy,ĐẠT,7.400 km / ngắn nhất 7.400 km,6.881966666666666
+Cầu Giấy,Bắc Từ Liêm,UCS,Cầu Giấy → Bắc Từ Liêm,1,7.4,7.4,1,True,0.0,4,12,8,"Cầu Giấy, Đống Đa, Thanh Xuân, Ba Đình",ĐẠT,7.400 km / ngắn nhất 7.400 km,10.688466666666667
+Cầu Giấy,Hà Đông,BFS,Cầu Giấy → Thanh Xuân → Hà Đông,2,13.097805986123578,13.097805986123578,2,True,0.0,10,12,6,"Cầu Giấy, Ba Đình, Tây Hồ, Đống Đa, Thanh Xuân, Nam Từ Liêm, Bắc Từ Liêm, Hoàn Kiếm, Hai Bà Trưng, Hoàng Mai",ĐẠT,số cạnh 2 / ít nhất 2,13.003366666666667
+Cầu Giấy,Hà Đông,GBFS,Cầu Giấy → Nam Từ Liêm → Hà Đông,2,15.488696077373731,13.097805986123578,2,False,18.25412663604249,2,8,6,"Cầu Giấy, Nam Từ Liêm",ĐẠT,khớp cài đặt độc lập,6.1235
+Cầu Giấy,Hà Đông,A*,Cầu Giấy → Thanh Xuân → Hà Đông,2,13.097805986123578,13.097805986123578,2,True,0.0,2,10,8,"Cầu Giấy, Thanh Xuân",ĐẠT,13.098 km / ngắn nhất 13.098 km,8.964066666666668
+Cầu Giấy,Hà Đông,UCS,Cầu Giấy → Thanh Xuân → Hà Đông,2,13.097805986123578,13.097805986123578,2,True,0.0,9,13,8,"Cầu Giấy, Đống Đa, Thanh Xuân, Ba Đình, Bắc Từ Liêm, Nam Từ Liêm, Hoàn Kiếm, Hai Bà Trưng, Tây Hồ",ĐẠT,13.098 km / ngắn nhất 13.098 km,16.813333333333333
+Đống Đa,Ba Đình,BFS,Đống Đa → Ba Đình,1,3.7,3.7,1,True,0.0,1,6,5,Đống Đa,ĐẠT,số cạnh 1 / ít nhất 1,3.2723666666666666
+Đống Đa,Ba Đình,GBFS,Đống Đa → Ba Đình,1,3.7,3.7,1,True,0.0,1,6,5,Đống Đa,ĐẠT,khớp cài đặt độc lập,4.447466666666666
+Đống Đa,Ba Đình,A*,Đống Đa → Ba Đình,1,3.7,3.7,1,True,0.0,1,6,5,Đống Đa,ĐẠT,3.700 km / ngắn nhất 3.700 km,5.3727
+Đống Đa,Ba Đình,UCS,Đống Đa → Ba Đình,1,3.7,3.7,1,True,0.0,1,6,5,Đống Đa,ĐẠT,3.700 km / ngắn nhất 3.700 km,4.3964
+Đống Đa,Hoàn Kiếm,BFS,Đống Đa → Hoàn Kiếm,1,4.9,4.9,1,True,0.0,2,7,5,"Đống Đa, Ba Đình",ĐẠT,số cạnh 1 / ít nhất 1,5.063
+Đống Đa,Hoàn Kiếm,GBFS,Đống Đa → Hoàn Kiếm,1,4.9,4.9,1,True,0.0,1,6,5,Đống Đa,ĐẠT,khớp cài đặt độc lập,4.476
+Đống Đa,Hoàn Kiếm,A*,Đống Đa → Hoàn Kiếm,1,4.9,4.9,1,True,0.0,1,6,5,Đống Đa,ĐẠT,4.900 km / ngắn nhất 4.900 km,5.1902333333333335
+Đống Đa,Hoàn Kiếm,UCS,Đống Đa → Hoàn Kiếm,1,4.9,4.9,1,True,0.0,4,12,8,"Đống Đa, Ba Đình, Thanh Xuân, Hai Bà Trưng",ĐẠT,4.900 km / ngắn nhất 4.900 km,12.801933333333332
+Đống Đa,Tây Hồ,BFS,Đống Đa → Ba Đình → Tây Hồ,2,9.0,9.0,2,True,0.0,6,12,6,"Đống Đa, Ba Đình, Hoàn Kiếm, Cầu Giấy, Hai Bà Trưng, Thanh Xuân",ĐẠT,số cạnh 2 / ít nhất 2,8.254866666666667
+Đống Đa,Tây Hồ,GBFS,Đống Đa → Ba Đình → Tây Hồ,2,9.0,9.0,2,True,0.0,2,7,5,"Đống Đa, Ba Đình",ĐẠT,khớp cài đặt độc lập,5.422466666666666
+Đống Đa,Tây Hồ,A*,Đống Đa → Ba Đình → Tây Hồ,2,9.0,9.0,2,True,0.0,2,7,5,"Đống Đa, Ba Đình",ĐẠT,9.000 km / ngắn nhất 9.000 km,7.029933333333333
+Đống Đa,Tây Hồ,UCS,Đống Đa → Ba Đình → Tây Hồ,2,9.0,9.0,2,True,0.0,6,14,8,"Đống Đa, Ba Đình, Thanh Xuân, Hai Bà Trưng, Hoàn Kiếm, Cầu Giấy",ĐẠT,9.000 km / ngắn nhất 9.000 km,13.6383
+Đống Đa,Long Biên,BFS,Đống Đa → Hoàn Kiếm → Long Biên,2,11.7,11.7,2,True,0.0,7,12,6,"Đống Đa, Ba Đình, Hoàn Kiếm, Cầu Giấy, Hai Bà Trưng, Thanh Xuân, Tây Hồ",ĐẠT,số cạnh 2 / ít nhất 2,8.451833333333333
+Đống Đa,Long Biên,GBFS,Đống Đa → Hoàn Kiếm → Long Biên,2,11.7,11.7,2,True,0.0,2,7,5,"Đống Đa, Hoàn Kiếm",ĐẠT,khớp cài đặt độc lập,5.754133333333333
+Đống Đa,Long Biên,A*,Đống Đa → Hoàn Kiếm → Long Biên,2,11.7,11.7,2,True,0.0,4,9,5,"Đống Đa, Hoàn Kiếm, Hai Bà Trưng, Ba Đình",ĐẠT,11.700 km / ngắn nhất 11.700 km,10.5325
+Đống Đa,Long Biên,UCS,Đống Đa → Hoàn Kiếm → Long Biên,2,11.7,11.7,2,True,0.0,9,14,8,"Đống Đa, Ba Đình, Thanh Xuân, Hai Bà Trưng, Hoàn Kiếm, Cầu Giấy, Tây Hồ, Hoàng Mai, Hà Đông",ĐẠT,11.700 km / ngắn nhất 11.700 km,17.108266666666665
+Đống Đa,Cầu Giấy,BFS,Đống Đa → Cầu Giấy,1,4.9,4.9,1,True,0.0,3,8,5,"Đống Đa, Ba Đình, Hoàn Kiếm",ĐẠT,số cạnh 1 / ít nhất 1,4.530966666666666
+Đống Đa,Cầu Giấy,GBFS,Đống Đa → Cầu Giấy,1,4.9,4.9,1,True,0.0,1,6,5,Đống Đa,ĐẠT,khớp cài đặt độc lập,5.443866666666667
+Đống Đa,Cầu Giấy,A*,Đống Đa → Cầu Giấy,1,4.9,4.9,1,True,0.0,1,6,5,Đống Đa,ĐẠT,4.900 km / ngắn nhất 4.900 km,5.178966666666666
+Đống Đa,Cầu Giấy,UCS,Đống Đa → Cầu Giấy,1,4.9,4.9,1,True,0.0,5,13,8,"Đống Đa, Ba Đình, Thanh Xuân, Hai Bà Trưng, Hoàn Kiếm",ĐẠT,4.900 km / ngắn nhất 4.900 km,11.951166666666666
+Đống Đa,Hai Bà Trưng,BFS,Đống Đa → Hai Bà Trưng,1,4.7,4.7,1,True,0.0,4,10,6,"Đống Đa, Ba Đình, Hoàn Kiếm, Cầu Giấy",ĐẠT,số cạnh 1 / ít nhất 1,5.601733333333334
+Đống Đa,Hai Bà Trưng,GBFS,Đống Đa → Hai Bà Trưng,1,4.7,4.7,1,True,0.0,1,6,5,Đống Đa,ĐẠT,khớp cài đặt độc lập,4.454333333333333
+Đống Đa,Hai Bà Trưng,A*,Đống Đa → Hai Bà Trưng,1,4.7,4.7,1,True,0.0,1,6,5,Đống Đa,ĐẠT,4.700 km / ngắn nhất 4.700 km,5.150333333333333
+Đống Đa,Hai Bà Trưng,UCS,Đống Đa → Hai Bà Trưng,1,4.7,4.7,1,True,0.0,3,10,7,"Đống Đa, Ba Đình, Thanh Xuân",ĐẠT,4.700 km / ngắn nhất 4.700 km,8.731866666666667
+Đống Đa,Hoàng Mai,BFS,Đống Đa → Hai Bà Trưng → Hoàng Mai,2,10.4,10.4,2,True,0.0,10,12,6,"Đống Đa, Ba Đình, Hoàn Kiếm, Cầu Giấy, Hai Bà Trưng, Thanh Xuân, Tây Hồ, Long Biên, Nam Từ Liêm, Bắc Từ Liêm",ĐẠT,số cạnh 2 / ít nhất 2,9.3002
+Đống Đa,Hoàng Mai,GBFS,Đống Đa → Hai Bà Trưng → Hoàng Mai,2,10.4,10.4,2,True,0.0,2,8,6,"Đống Đa, Hai Bà Trưng",ĐẠT,khớp cài đặt độc lập,6.100899999999999
+Đống Đa,Hoàng Mai,A*,Đống Đa → Hai Bà Trưng → Hoàng Mai,2,10.4,10.4,2,True,0.0,3,10,7,"Đống Đa, Hai Bà Trưng, Thanh Xuân",ĐẠT,10.400 km / ngắn nhất 10.400 km,10.291666666666666
+Đống Đa,Hoàng Mai,UCS,Đống Đa → Hai Bà Trưng → Hoàng Mai,2,10.4,10.4,2,True,0.0,7,14,8,"Đống Đa, Ba Đình, Thanh Xuân, Hai Bà Trưng, Hoàn Kiếm, Cầu Giấy, Tây Hồ",ĐẠT,10.400 km / ngắn nhất 10.400 km,15.4354
+Đống Đa,Thanh Xuân,BFS,Đống Đa → Thanh Xuân,1,4.0,4.0,1,True,0.0,5,11,6,"Đống Đa, Ba Đình, Hoàn Kiếm, Cầu Giấy, Hai Bà Trưng",ĐẠT,số cạnh 1 / ít nhất 1,6.618033333333334
+Đống Đa,Thanh Xuân,GBFS,Đống Đa → Thanh Xuân,1,4.0,4.0,1,True,0.0,1,6,5,Đống Đa,ĐẠT,khớp cài đặt độc lập,4.485633333333333
+Đống Đa,Thanh Xuân,A*,Đống Đa → Thanh Xuân,1,4.0,4.0,1,True,0.0,1,6,5,Đống Đa,ĐẠT,4.000 km / ngắn nhất 4.000 km,6.3518
+Đống Đa,Thanh Xuân,UCS,Đống Đa → Thanh Xuân,1,4.0,4.0,1,True,0.0,2,7,5,"Đống Đa, Ba Đình",ĐẠT,4.000 km / ngắn nhất 4.000 km,6.066566666666667
+Đống Đa,Nam Từ Liêm,BFS,Đống Đa → Cầu Giấy → Nam Từ Liêm,2,13.8,12.2,2,False,13.11475409836067,8,12,6,"Đống Đa, Ba Đình, Hoàn Kiếm, Cầu Giấy, Hai Bà Trưng, Thanh Xuân, Tây Hồ, Long Biên",ĐẠT,số cạnh 2 / ít nhất 2,8.683166666666667
+Đống Đa,Nam Từ Liêm,GBFS,Đống Đa → Cầu Giấy → Nam Từ Liêm,2,13.8,12.2,2,False,13.11475409836067,2,9,7,"Đống Đa, Cầu Giấy",ĐẠT,khớp cài đặt độc lập,6.818133333333333
+Đống Đa,Nam Từ Liêm,A*,Đống Đa → Thanh Xuân → Nam Từ Liêm,2,12.2,12.2,2,True,0.0,4,13,9,"Đống Đa, Cầu Giấy, Thanh Xuân, Ba Đình",ĐẠT,12.200 km / ngắn nhất 12.200 km,15.7494
+Đống Đa,Nam Từ Liêm,UCS,Đống Đa → Thanh Xuân → Nam Từ Liêm,2,12.2,12.2,2,True,0.0,10,14,8,"Đống Đa, Ba Đình, Thanh Xuân, Hai Bà Trưng, Hoàn Kiếm, Cầu Giấy, Tây Hồ, Hoàng Mai, Hà Đông, Long Biên",ĐẠT,12.200 km / ngắn nhất 12.200 km,17.565733333333334
+Đống Đa,Bắc Từ Liêm,BFS,Đống Đa → Cầu Giấy → Bắc Từ Liêm,2,12.3,12.3,2,True,0.0,9,12,6,"Đống Đa, Ba Đình, Hoàn Kiếm, Cầu Giấy, Hai Bà Trưng, Thanh Xuân, Tây Hồ, Long Biên, Nam Từ Liêm",ĐẠT,số cạnh 2 / ít nhất 2,7.847433333333333
+Đống Đa,Bắc Từ Liêm,GBFS,Đống Đa → Cầu Giấy → Bắc Từ Liêm,2,12.3,12.3,2,True,0.0,2,9,7,"Đống Đa, Cầu Giấy",ĐẠT,khớp cài đặt độc lập,7.172166666666667
+Đống Đa,Bắc Từ Liêm,A*,Đống Đa → Cầu Giấy → Bắc Từ Liêm,2,12.3,12.3,2,True,0.0,3,10,7,"Đống Đa, Cầu Giấy, Ba Đình",ĐẠT,12.300 km / ngắn nhất 12.300 km,11.188266666666667
+Đống Đa,Bắc Từ Liêm,UCS,Đống Đa → Cầu Giấy → Bắc Từ Liêm,2,12.3,12.3,2,True,0.0,11,14,8,"Đống Đa, Ba Đình, Thanh Xuân, Hai Bà Trưng, Hoàn Kiếm, Cầu Giấy, Tây Hồ, Hoàng Mai, Hà Đông, Long Biên, Nam Từ Liêm",ĐẠT,12.300 km / ngắn nhất 12.300 km,17.001900000000003
+Đống Đa,Hà Đông,BFS,Đống Đa → Thanh Xuân → Hà Đông,2,11.697805986123578,11.697805986123578,2,True,0.0,11,12,6,"Đống Đa, Ba Đình, Hoàn Kiếm, Cầu Giấy, Hai Bà Trưng, Thanh Xuân, Tây Hồ, Long Biên, Nam Từ Liêm, Bắc Từ Liêm, Hoàng Mai",ĐẠT,số cạnh 2 / ít nhất 2,8.348166666666666
+Đống Đa,Hà Đông,GBFS,Đống Đa → Thanh Xuân → Hà Đông,2,11.697805986123578,11.697805986123578,2,True,0.0,2,9,7,"Đống Đa, Thanh Xuân",ĐẠT,khớp cài đặt độc lập,6.922
+Đống Đa,Hà Đông,A*,Đống Đa → Thanh Xuân → Hà Đông,2,11.697805986123578,11.697805986123578,2,True,0.0,2,9,7,"Đống Đa, Thanh Xuân",ĐẠT,11.698 km / ngắn nhất 11.698 km,9.761933333333333
+Đống Đa,Hà Đông,UCS,Đống Đa → Thanh Xuân → Hà Đông,2,11.697805986123578,11.697805986123578,2,True,0.0,8,14,8,"Đống Đa, Ba Đình, Thanh Xuân, Hai Bà Trưng, Hoàn Kiếm, Cầu Giấy, Tây Hồ, Hoàng Mai",ĐẠT,11.698 km / ngắn nhất 11.698 km,15.940066666666668
+Hai Bà Trưng,Ba Đình,BFS,Hai Bà Trưng → Hoàn Kiếm → Ba Đình,2,5.554508018459,5.554508018459,2,True,0.0,6,10,5,"Hai Bà Trưng, Hoàn Kiếm, Long Biên, Đống Đa, Hoàng Mai, Thanh Xuân",ĐẠT,số cạnh 2 / ít nhất 2,6.084233333333334
+Hai Bà Trưng,Ba Đình,GBFS,Hai Bà Trưng → Đống Đa → Ba Đình,2,8.4,5.554508018459,2,False,51.228515146341124,2,8,6,"Hai Bà Trưng, Đống Đa",ĐẠT,khớp cài đặt độc lập,6.129333333333333
+Hai Bà Trưng,Ba Đình,A*,Hai Bà Trưng → Hoàn Kiếm → Ba Đình,2,5.554508018459,5.554508018459,2,True,0.0,2,7,5,"Hai Bà Trưng, Hoàn Kiếm",ĐẠT,5.555 km / ngắn nhất 5.555 km,7.0025
+Hai Bà Trưng,Ba Đình,UCS,Hai Bà Trưng → Hoàn Kiếm → Ba Đình,2,5.554508018459,5.554508018459,2,True,0.0,3,8,5,"Hai Bà Trưng, Hoàn Kiếm, Đống Đa",ĐẠT,5.555 km / ngắn nhất 5.555 km,8.635833333333334
+Hai Bà Trưng,Hoàn Kiếm,BFS,Hai Bà Trưng → Hoàn Kiếm,1,2.6218491566068396,2.6218491566068396,1,True,0.0,1,6,5,Hai Bà Trưng,ĐẠT,số cạnh 1 / ít nhất 1,3.314
+Hai Bà Trưng,Hoàn Kiếm,GBFS,Hai Bà Trưng → Hoàn Kiếm,1,2.6218491566068396,2.6218491566068396,1,True,0.0,1,6,5,Hai Bà Trưng,ĐẠT,khớp cài đặt độc lập,5.366733333333333
+Hai Bà Trưng,Hoàn Kiếm,A*,Hai Bà Trưng → Hoàn Kiếm,1,2.6218491566068396,2.6218491566068396,1,True,0.0,1,6,5,Hai Bà Trưng,ĐẠT,2.622 km / ngắn nhất 2.622 km,5.193933333333334
+Hai Bà Trưng,Hoàn Kiếm,UCS,Hai Bà Trưng → Hoàn Kiếm,1,2.6218491566068396,2.6218491566068396,1,True,0.0,1,6,5,Hai Bà Trưng,ĐẠT,2.622 km / ngắn nhất 2.622 km,4.358466666666666
+Hai Bà Trưng,Tây Hồ,BFS,Hai Bà Trưng → Hoàn Kiếm → Ba Đình → Tây Hồ,3,10.854508018458999,10.854508018459,3,True,-1.1102230246251565e-14,10,12,5,"Hai Bà Trưng, Hoàn Kiếm, Long Biên, Đống Đa, Hoàng Mai, Thanh Xuân, Ba Đình, Cầu Giấy, Nam Từ Liêm, Hà Đông",ĐẠT,số cạnh 3 / ít nhất 3,8.217233333333333
+Hai Bà Trưng,Tây Hồ,GBFS,Hai Bà Trưng → Hoàn Kiếm → Ba Đình → Tây Hồ,3,10.854508018458999,10.854508018459,3,True,-1.1102230246251565e-14,3,9,6,"Hai Bà Trưng, Hoàn Kiếm, Ba Đình",ĐẠT,khớp cài đặt độc lập,7.1548
+Hai Bà Trưng,Tây Hồ,A*,Hai Bà Trưng → Hoàn Kiếm → Ba Đình → Tây Hồ,3,10.854508018458999,10.854508018459,3,True,-1.1102230246251565e-14,4,10,6,"Hai Bà Trưng, Hoàn Kiếm, Ba Đình, Đống Đa",ĐẠT,10.855 km / ngắn nhất 10.855 km,11.8561
+Hai Bà Trưng,Tây Hồ,UCS,Hai Bà Trưng → Hoàn Kiếm → Ba Đình → Tây Hồ,3,10.854508018458999,10.854508018459,3,True,-1.1102230246251565e-14,8,12,5,"Hai Bà Trưng, Hoàn Kiếm, Đống Đa, Ba Đình, Hoàng Mai, Thanh Xuân, Long Biên, Cầu Giấy",ĐẠT,10.855 km / ngắn nhất 10.855 km,14.407833333333334
+Hai Bà Trưng,Long Biên,BFS,Hai Bà Trưng → Long Biên,1,8.0,8.0,1,True,0.0,2,7,5,"Hai Bà Trưng, Hoàn Kiếm",ĐẠT,số cạnh 1 / ít nhất 1,4.933966666666667
+Hai Bà Trưng,Long Biên,GBFS,Hai Bà Trưng → Long Biên,1,8.0,8.0,1,True,0.0,1,6,5,Hai Bà Trưng,ĐẠT,khớp cài đặt độc lập,5.423566666666667
+Hai Bà Trưng,Long Biên,A*,Hai Bà Trưng → Long Biên,1,8.0,8.0,1,True,0.0,2,7,5,"Hai Bà Trưng, Hoàn Kiếm",ĐẠT,8.000 km / ngắn nhất 8.000 km,6.963266666666667
+Hai Bà Trưng,Long Biên,UCS,Hai Bà Trưng → Long Biên,1,8.0,8.0,1,True,0.0,6,11,5,"Hai Bà Trưng, Hoàn Kiếm, Đống Đa, Ba Đình, Hoàng Mai, Thanh Xuân",ĐẠT,8.000 km / ngắn nhất 8.000 km,12.0108
+Hai Bà Trưng,Cầu Giấy,BFS,Hai Bà Trưng → Đống Đa → Cầu Giấy,2,9.600000000000001,9.600000000000001,2,True,0.0,7,11,5,"Hai Bà Trưng, Hoàn Kiếm, Long Biên, Đống Đa, Hoàng Mai, Thanh Xuân, Ba Đình",ĐẠT,số cạnh 2 / ít nhất 2,6.923233333333334
+Hai Bà Trưng,Cầu Giấy,GBFS,Hai Bà Trưng → Đống Đa → Cầu Giấy,2,9.600000000000001,9.600000000000001,2,True,0.0,2,8,6,"Hai Bà Trưng, Đống Đa",ĐẠT,khớp cài đặt độc lập,6.2281
+Hai Bà Trưng,Cầu Giấy,A*,Hai Bà Trưng → Đống Đa → Cầu Giấy,2,9.600000000000001,9.600000000000001,2,True,0.0,4,10,6,"Hai Bà Trưng, Đống Đa, Hoàn Kiếm, Ba Đình",ĐẠT,9.600 km / ngắn nhất 9.600 km,10.515933333333333
+Hai Bà Trưng,Cầu Giấy,UCS,Hai Bà Trưng → Đống Đa → Cầu Giấy,2,9.600000000000001,9.600000000000001,2,True,0.0,7,11,5,"Hai Bà Trưng, Hoàn Kiếm, Đống Đa, Ba Đình, Hoàng Mai, Thanh Xuân, Long Biên",ĐẠT,9.600 km / ngắn nhất 9.600 km,13.558866666666667
+Hai Bà Trưng,Đống Đa,BFS,Hai Bà Trưng → Đống Đa,1,4.7,4.7,1,True,0.0,3,7,5,"Hai Bà Trưng, Hoàn Kiếm, Long Biên",ĐẠT,số cạnh 1 / ít nhất 1,4.095233333333333
+Hai Bà Trưng,Đống Đa,GBFS,Hai Bà Trưng → Đống Đa,1,4.7,4.7,1,True,0.0,1,6,5,Hai Bà Trưng,ĐẠT,khớp cài đặt độc lập,4.431033333333334
+Hai Bà Trưng,Đống Đa,A*,Hai Bà Trưng → Đống Đa,1,4.7,4.7,1,True,0.0,1,6,5,Hai Bà Trưng,ĐẠT,4.700 km / ngắn nhất 4.700 km,5.056433333333334
+Hai Bà Trưng,Đống Đa,UCS,Hai Bà Trưng → Đống Đa,1,4.7,4.7,1,True,0.0,2,7,5,"Hai Bà Trưng, Hoàn Kiếm",ĐẠT,4.700 km / ngắn nhất 4.700 km,7.8946000000000005
+Hai Bà Trưng,Hoàng Mai,BFS,Hai Bà Trưng → Hoàng Mai,1,5.7,5.7,1,True,0.0,4,8,5,"Hai Bà Trưng, Hoàn Kiếm, Long Biên, Đống Đa",ĐẠT,số cạnh 1 / ít nhất 1,4.7569333333333335
+Hai Bà Trưng,Hoàng Mai,GBFS,Hai Bà Trưng → Hoàng Mai,1,5.7,5.7,1,True,0.0,1,6,5,Hai Bà Trưng,ĐẠT,khớp cài đặt độc lập,4.5182
+Hai Bà Trưng,Hoàng Mai,A*,Hai Bà Trưng → Hoàng Mai,1,5.7,5.7,1,True,0.0,1,6,5,Hai Bà Trưng,ĐẠT,5.700 km / ngắn nhất 5.700 km,5.113266666666666
+Hai Bà Trưng,Hoàng Mai,UCS,Hai Bà Trưng → Hoàng Mai,1,5.7,5.7,1,True,0.0,4,9,5,"Hai Bà Trưng, Hoàn Kiếm, Đống Đa, Ba Đình",ĐẠT,5.700 km / ngắn nhất 5.700 km,8.97
+Hai Bà Trưng,Thanh Xuân,BFS,Hai Bà Trưng → Thanh Xuân,1,7.1,7.1,1,True,0.0,5,8,5,"Hai Bà Trưng, Hoàn Kiếm, Long Biên, Đống Đa, Hoàng Mai",ĐẠT,số cạnh 1 / ít nhất 1,4.998266666666667
+Hai Bà Trưng,Thanh Xuân,GBFS,Hai Bà Trưng → Thanh Xuân,1,7.1,7.1,1,True,0.0,1,6,5,Hai Bà Trưng,ĐẠT,khớp cài đặt độc lập,4.415633333333333
+Hai Bà Trưng,Thanh Xuân,A*,Hai Bà Trưng → Thanh Xuân,1,7.1,7.1,1,True,0.0,1,6,5,Hai Bà Trưng,ĐẠT,7.100 km / ngắn nhất 7.100 km,5.164066666666667
+Hai Bà Trưng,Thanh Xuân,UCS,Hai Bà Trưng → Thanh Xuân,1,7.1,7.1,1,True,0.0,5,9,5,"Hai Bà Trưng, Hoàn Kiếm, Đống Đa, Ba Đình, Hoàng Mai",ĐẠT,7.100 km / ngắn nhất 7.100 km,11.1236
+Hai Bà Trưng,Nam Từ Liêm,BFS,Hai Bà Trưng → Thanh Xuân → Nam Từ Liêm,2,15.299999999999999,15.299999999999999,2,True,0.0,8,12,5,"Hai Bà Trưng, Hoàn Kiếm, Long Biên, Đống Đa, Hoàng Mai, Thanh Xuân, Ba Đình, Cầu Giấy",ĐẠT,số cạnh 2 / ít nhất 2,8.7672
+Hai Bà Trưng,Nam Từ Liêm,GBFS,Hai Bà Trưng → Thanh Xuân → Nam Từ Liêm,2,15.299999999999999,15.299999999999999,2,True,0.0,2,9,7,"Hai Bà Trưng, Thanh Xuân",ĐẠT,khớp cài đặt độc lập,6.7373
+Hai Bà Trưng,Nam Từ Liêm,A*,Hai Bà Trưng → Thanh Xuân → Nam Từ Liêm,2,15.299999999999999,15.299999999999999,2,True,0.0,6,13,7,"Hai Bà Trưng, Đống Đa, Hoàn Kiếm, Ba Đình, Thanh Xuân, Cầu Giấy",ĐẠT,15.300 km / ngắn nhất 15.300 km,15.495333333333335
+Hai Bà Trưng,Nam Từ Liêm,UCS,Hai Bà Trưng → Thanh Xuân → Nam Từ Liêm,2,15.299999999999999,15.299999999999999,2,True,0.0,10,12,5,"Hai Bà Trưng, Hoàn Kiếm, Đống Đa, Ba Đình, Hoàng Mai, Thanh Xuân, Long Biên, Cầu Giấy, Tây Hồ, Hà Đông",ĐẠT,15.300 km / ngắn nhất 15.300 km,16.804166666666667
+Hai Bà Trưng,Bắc Từ Liêm,BFS,Hai Bà Trưng → Đống Đa → Cầu Giấy → Bắc Từ Liêm,3,17.0,17.0,3,True,0.0,11,12,5,"Hai Bà Trưng, Hoàn Kiếm, Long Biên, Đống Đa, Hoàng Mai, Thanh Xuân, Ba Đình, Cầu Giấy, Nam Từ Liêm, Hà Đông, Tây Hồ",ĐẠT,số cạnh 3 / ít nhất 3,8.497200000000001
+Hai Bà Trưng,Bắc Từ Liêm,GBFS,Hai Bà Trưng → Đống Đa → Cầu Giấy → Bắc Từ Liêm,3,17.0,17.0,3,True,0.0,3,11,8,"Hai Bà Trưng, Đống Đa, Cầu Giấy",ĐẠT,khớp cài đặt độc lập,9.593866666666667
+Hai Bà Trưng,Bắc Từ Liêm,A*,Hai Bà Trưng → Đống Đa → Cầu Giấy → Bắc Từ Liêm,3,17.0,17.0,3,True,0.0,6,12,7,"Hai Bà Trưng, Hoàn Kiếm, Ba Đình, Đống Đa, Cầu Giấy, Tây Hồ",ĐẠT,17.000 km / ngắn nhất 17.000 km,14.4481
+Hai Bà Trưng,Bắc Từ Liêm,UCS,Hai Bà Trưng → Đống Đa → Cầu Giấy → Bắc Từ Liêm,3,17.0,17.0,3,True,0.0,11,12,5,"Hai Bà Trưng, Hoàn Kiếm, Đống Đa, Ba Đình, Hoàng Mai, Thanh Xuân, Long Biên, Cầu Giấy, Tây Hồ, Hà Đông, Nam Từ Liêm",ĐẠT,17.000 km / ngắn nhất 17.000 km,19.484099999999998
+Hai Bà Trưng,Hà Đông,BFS,Hai Bà Trưng → Thanh Xuân → Hà Đông,2,14.797805986123578,14.797805986123578,2,True,0.0,9,12,5,"Hai Bà Trưng, Hoàn Kiếm, Long Biên, Đống Đa, Hoàng Mai, Thanh Xuân, Ba Đình, Cầu Giấy, Nam Từ Liêm",ĐẠT,số cạnh 2 / ít nhất 2,8.032399999999999
+Hai Bà Trưng,Hà Đông,GBFS,Hai Bà Trưng → Thanh Xuân → Hà Đông,2,14.797805986123578,14.797805986123578,2,True,0.0,2,9,7,"Hai Bà Trưng, Thanh Xuân",ĐẠT,khớp cài đặt độc lập,7.971033333333334
+Hai Bà Trưng,Hà Đông,A*,Hai Bà Trưng → Thanh Xuân → Hà Đông,2,14.797805986123578,14.797805986123578,2,True,0.0,3,10,7,"Hai Bà Trưng, Đống Đa, Thanh Xuân",ĐẠT,14.798 km / ngắn nhất 14.798 km,11.343266666666667
+Hai Bà Trưng,Hà Đông,UCS,Hai Bà Trưng → Thanh Xuân → Hà Đông,2,14.797805986123578,14.797805986123578,2,True,0.0,9,12,5,"Hai Bà Trưng, Hoàn Kiếm, Đống Đa, Ba Đình, Hoàng Mai, Thanh Xuân, Long Biên, Cầu Giấy, Tây Hồ",ĐẠT,14.798 km / ngắn nhất 14.798 km,16.179666666666666
+Hoàng Mai,Ba Đình,BFS,Hoàng Mai → Long Biên → Hoàn Kiếm → Ba Đình,3,19.73265886185216,11.254508018459,3,False,75.33115467586661,9,12,5,"Hoàng Mai, Long Biên, Hai Bà Trưng, Thanh Xuân, Hoàn Kiếm, Đống Đa, Cầu Giấy, Nam Từ Liêm, Hà Đông",ĐẠT,số cạnh 3 / ít nhất 3,9.115
+Hoàng Mai,Ba Đình,GBFS,Hoàng Mai → Thanh Xuân → Đống Đa → Ba Đình,3,17.5,11.254508018459,3,False,55.4932474284749,3,10,7,"Hoàng Mai, Thanh Xuân, Đống Đa",ĐẠT,khớp cài đặt độc lập,7.7599
+Hoàng Mai,Ba Đình,A*,Hoàng Mai → Hai Bà Trưng → Hoàn Kiếm → Ba Đình,3,11.254508018459,11.254508018459,3,True,0.0,3,7,4,"Hoàng Mai, Hai Bà Trưng, Hoàn Kiếm",ĐẠT,11.255 km / ngắn nhất 11.255 km,8.1755
+Hoàng Mai,Ba Đình,UCS,Hoàng Mai → Hai Bà Trưng → Hoàn Kiếm → Ba Đình,3,11.254508018459,11.254508018459,3,True,0.0,6,10,6,"Hoàng Mai, Hai Bà Trưng, Hoàn Kiếm, Thanh Xuân, Long Biên, Đống Đa",ĐẠT,11.255 km / ngắn nhất 11.255 km,12.089166666666666
+Hoàng Mai,Hoàn Kiếm,BFS,Hoàng Mai → Long Biên → Hoàn Kiếm,2,16.8,8.32184915660684,2,False,101.87820860297893,4,9,5,"Hoàng Mai, Long Biên, Hai Bà Trưng, Thanh Xuân",ĐẠT,số cạnh 2 / ít nhất 2,6.427933333333334
+Hoàng Mai,Hoàn Kiếm,GBFS,Hoàng Mai → Hai Bà Trưng → Hoàn Kiếm,2,8.32184915660684,8.32184915660684,2,True,0.0,2,6,4,"Hoàng Mai, Hai Bà Trưng",ĐẠT,khớp cài đặt độc lập,4.830166666666667
+Hoàng Mai,Hoàn Kiếm,A*,Hoàng Mai → Hai Bà Trưng → Hoàn Kiếm,2,8.32184915660684,8.32184915660684,2,True,0.0,2,6,4,"Hoàng Mai, Hai Bà Trưng",ĐẠT,8.322 km / ngắn nhất 8.322 km,6.255533333333334
+Hoàng Mai,Hoàn Kiếm,UCS,Hoàng Mai → Hai Bà Trưng → Hoàn Kiếm,2,8.32184915660684,8.32184915660684,2,True,0.0,2,6,4,"Hoàng Mai, Hai Bà Trưng",ĐẠT,8.322 km / ngắn nhất 8.322 km,5.477133333333334
+Hoàng Mai,Tây Hồ,BFS,Hoàng Mai → Thanh Xuân → Cầu Giấy → Tây Hồ,3,25.200000000000003,16.554508018459,3,False,52.2243969552034,10,12,5,"Hoàng Mai, Long Biên, Hai Bà Trưng, Thanh Xuân, Hoàn Kiếm, Đống Đa, Cầu Giấy, Nam Từ Liêm, Hà Đông, Ba Đình",ĐẠT,số cạnh 3 / ít nhất 3,8.300533333333332
+Hoàng Mai,Tây Hồ,GBFS,Hoàng Mai → Hai Bà Trưng → Hoàn Kiếm → Ba Đình → Tây Hồ,4,16.554508018459,16.554508018459,3,True,0.0,4,9,5,"Hoàng Mai, Hai Bà Trưng, Hoàn Kiếm, Ba Đình",ĐẠT,khớp cài đặt độc lập,7.499766666666666
+Hoàng Mai,Tây Hồ,A*,Hoàng Mai → Hai Bà Trưng → Hoàn Kiếm → Ba Đình → Tây Hồ,4,16.554508018459,16.554508018459,3,True,0.0,5,10,5,"Hoàng Mai, Hai Bà Trưng, Hoàn Kiếm, Ba Đình, Đống Đa",ĐẠT,16.555 km / ngắn nhất 16.555 km,13.620033333333334
+Hoàng Mai,Tây Hồ,UCS,Hoàng Mai → Hai Bà Trưng → Hoàn Kiếm → Ba Đình → Tây Hồ,4,16.554508018459,16.554508018459,3,True,0.0,8,12,6,"Hoàng Mai, Hai Bà Trưng, Hoàn Kiếm, Thanh Xuân, Long Biên, Đống Đa, Ba Đình, Cầu Giấy",ĐẠT,16.555 km / ngắn nhất 16.555 km,14.371633333333333
+Hoàng Mai,Long Biên,BFS,Hoàng Mai → Long Biên,1,10.0,10.0,1,True,0.0,1,4,3,Hoàng Mai,ĐẠT,số cạnh 1 / ít nhất 1,2.3896666666666664
+Hoàng Mai,Long Biên,GBFS,Hoàng Mai → Long Biên,1,10.0,10.0,1,True,0.0,1,4,3,Hoàng Mai,ĐẠT,khớp cài đặt độc lập,4.1753
+Hoàng Mai,Long Biên,A*,Hoàng Mai → Long Biên,1,10.0,10.0,1,True,0.0,1,4,3,Hoàng Mai,ĐẠT,10.000 km / ngắn nhất 10.000 km,3.7429333333333332
+Hoàng Mai,Long Biên,UCS,Hoàng Mai → Long Biên,1,10.0,10.0,1,True,0.0,4,10,6,"Hoàng Mai, Hai Bà Trưng, Hoàn Kiếm, Thanh Xuân",ĐẠT,10.000 km / ngắn nhất 10.000 km,9.229466666666667
+Hoàng Mai,Cầu Giấy,BFS,Hoàng Mai → Thanh Xuân → Cầu Giấy,2,15.200000000000001,15.200000000000001,2,True,0.0,6,10,5,"Hoàng Mai, Long Biên, Hai Bà Trưng, Thanh Xuân, Hoàn Kiếm, Đống Đa",ĐẠT,số cạnh 2 / ít nhất 2,6.3946000000000005
+Hoàng Mai,Cầu Giấy,GBFS,Hoàng Mai → Thanh Xuân → Cầu Giấy,2,15.200000000000001,15.200000000000001,2,True,0.0,2,8,6,"Hoàng Mai, Thanh Xuân",ĐẠT,khớp cài đặt độc lập,6.139366666666667
+Hoàng Mai,Cầu Giấy,A*,Hoàng Mai → Thanh Xuân → Cầu Giấy,2,15.200000000000001,15.200000000000001,2,True,0.0,6,13,7,"Hoàng Mai, Hai Bà Trưng, Đống Đa, Thanh Xuân, Hoàn Kiếm, Ba Đình",ĐẠT,15.200 km / ngắn nhất 15.200 km,14.7776
+Hoàng Mai,Cầu Giấy,UCS,Hoàng Mai → Thanh Xuân → Cầu Giấy,2,15.200000000000001,15.200000000000001,2,True,0.0,7,11,6,"Hoàng Mai, Hai Bà Trưng, Hoàn Kiếm, Thanh Xuân, Long Biên, Đống Đa, Ba Đình",ĐẠT,15.200 km / ngắn nhất 15.200 km,13.537233333333333
+Hoàng Mai,Đống Đa,BFS,Hoàng Mai → Hai Bà Trưng → Đống Đa,2,10.4,10.4,2,True,0.0,5,10,5,"Hoàng Mai, Long Biên, Hai Bà Trưng, Thanh Xuân, Hoàn Kiếm",ĐẠT,số cạnh 2 / ít nhất 2,5.8673
+Hoàng Mai,Đống Đa,GBFS,Hoàng Mai → Thanh Xuân → Đống Đa,2,13.8,10.4,2,False,32.692307692307686,2,8,6,"Hoàng Mai, Thanh Xuân",ĐẠT,khớp cài đặt độc lập,5.929399999999999
+Hoàng Mai,Đống Đa,A*,Hoàng Mai → Hai Bà Trưng → Đống Đa,2,10.4,10.4,2,True,0.0,2,6,4,"Hoàng Mai, Hai Bà Trưng",ĐẠT,10.400 km / ngắn nhất 10.400 km,6.268166666666667
+Hoàng Mai,Đống Đa,UCS,Hoàng Mai → Hai Bà Trưng → Đống Đa,2,10.4,10.4,2,True,0.0,5,10,6,"Hoàng Mai, Hai Bà Trưng, Hoàn Kiếm, Thanh Xuân, Long Biên",ĐẠT,10.400 km / ngắn nhất 10.400 km,10.976566666666667
+Hoàng Mai,Hai Bà Trưng,BFS,Hoàng Mai → Hai Bà Trưng,1,5.7,5.7,1,True,0.0,2,5,3,"Hoàng Mai, Long Biên",ĐẠT,số cạnh 1 / ít nhất 1,4.121333333333333
+Hoàng Mai,Hai Bà Trưng,GBFS,Hoàng Mai → Hai Bà Trưng,1,5.7,5.7,1,True,0.0,1,4,3,Hoàng Mai,ĐẠT,khớp cài đặt độc lập,3.109633333333333
+Hoàng Mai,Hai Bà Trưng,A*,Hoàng Mai → Hai Bà Trưng,1,5.7,5.7,1,True,0.0,1,4,3,Hoàng Mai,ĐẠT,5.700 km / ngắn nhất 5.700 km,4.7553
+Hoàng Mai,Hai Bà Trưng,UCS,Hoàng Mai → Hai Bà Trưng,1,5.7,5.7,1,True,0.0,1,4,3,Hoàng Mai,ĐẠT,5.700 km / ngắn nhất 5.700 km,3.047366666666667
+Hoàng Mai,Thanh Xuân,BFS,Hoàng Mai → Thanh Xuân,1,9.8,9.8,1,True,0.0,3,6,3,"Hoàng Mai, Long Biên, Hai Bà Trưng",ĐẠT,số cạnh 1 / ít nhất 1,3.7533000000000003
+Hoàng Mai,Thanh Xuân,GBFS,Hoàng Mai → Thanh Xuân,1,9.8,9.8,1,True,0.0,1,4,3,Hoàng Mai,ĐẠT,khớp cài đặt độc lập,4.1621999999999995
+Hoàng Mai,Thanh Xuân,A*,Hoàng Mai → Thanh Xuân,1,9.8,9.8,1,True,0.0,1,4,3,Hoàng Mai,ĐẠT,9.800 km / ngắn nhất 9.800 km,3.6560333333333332
+Hoàng Mai,Thanh Xuân,UCS,Hoàng Mai → Thanh Xuân,1,9.8,9.8,1,True,0.0,3,7,4,"Hoàng Mai, Hai Bà Trưng, Hoàn Kiếm",ĐẠT,9.800 km / ngắn nhất 9.800 km,6.842533333333334
+Hoàng Mai,Nam Từ Liêm,BFS,Hoàng Mai → Thanh Xuân → Nam Từ Liêm,2,18.0,18.0,2,True,0.0,7,12,5,"Hoàng Mai, Long Biên, Hai Bà Trưng, Thanh Xuân, Hoàn Kiếm, Đống Đa, Cầu Giấy",ĐẠT,số cạnh 2 / ít nhất 2,7.4382
+Hoàng Mai,Nam Từ Liêm,GBFS,Hoàng Mai → Thanh Xuân → Nam Từ Liêm,2,18.0,18.0,2,True,0.0,2,8,6,"Hoàng Mai, Thanh Xuân",ĐẠT,khớp cài đặt độc lập,6.097899999999999
+Hoàng Mai,Nam Từ Liêm,A*,Hoàng Mai → Thanh Xuân → Nam Từ Liêm,2,18.0,18.0,2,True,0.0,4,11,7,"Hoàng Mai, Thanh Xuân, Hai Bà Trưng, Đống Đa",ĐẠT,18.000 km / ngắn nhất 18.000 km,12.828266666666666
+Hoàng Mai,Nam Từ Liêm,UCS,Hoàng Mai → Thanh Xuân → Nam Từ Liêm,2,18.0,18.0,2,True,0.0,10,12,6,"Hoàng Mai, Hai Bà Trưng, Hoàn Kiếm, Thanh Xuân, Long Biên, Đống Đa, Ba Đình, Cầu Giấy, Tây Hồ, Hà Đông",ĐẠT,18.000 km / ngắn nhất 18.000 km,16.817633333333337
+Hoàng Mai,Bắc Từ Liêm,BFS,Hoàng Mai → Thanh Xuân → Cầu Giấy → Bắc Từ Liêm,3,22.6,22.6,3,True,0.0,11,12,5,"Hoàng Mai, Long Biên, Hai Bà Trưng, Thanh Xuân, Hoàn Kiếm, Đống Đa, Cầu Giấy, Nam Từ Liêm, Hà Đông, Ba Đình, Tây Hồ",ĐẠT,số cạnh 3 / ít nhất 3,8.538033333333333
+Hoàng Mai,Bắc Từ Liêm,GBFS,Hoàng Mai → Thanh Xuân → Cầu Giấy → Bắc Từ Liêm,3,22.6,22.6,3,True,0.0,3,11,8,"Hoàng Mai, Thanh Xuân, Cầu Giấy",ĐẠT,khớp cài đặt độc lập,8.764666666666667
+Hoàng Mai,Bắc Từ Liêm,A*,Hoàng Mai → Thanh Xuân → Cầu Giấy → Bắc Từ Liêm,3,22.6,22.6,3,True,0.0,7,14,7,"Hoàng Mai, Hai Bà Trưng, Hoàn Kiếm, Ba Đình, Đống Đa, Thanh Xuân, Cầu Giấy",ĐẠT,22.600 km / ngắn nhất 22.600 km,17.902133333333335
+Hoàng Mai,Bắc Từ Liêm,UCS,Hoàng Mai → Thanh Xuân → Cầu Giấy → Bắc Từ Liêm,3,22.6,22.6,3,True,0.0,11,12,6,"Hoàng Mai, Hai Bà Trưng, Hoàn Kiếm, Thanh Xuân, Long Biên, Đống Đa, Ba Đình, Cầu Giấy, Tây Hồ, Hà Đông, Nam Từ Liêm",ĐẠT,22.600 km / ngắn nhất 22.600 km,16.2338
+Hoàng Mai,Hà Đông,BFS,Hoàng Mai → Thanh Xuân → Hà Đông,2,17.49780598612358,17.49780598612358,2,True,0.0,8,12,5,"Hoàng Mai, Long Biên, Hai Bà Trưng, Thanh Xuân, Hoàn Kiếm, Đống Đa, Cầu Giấy, Nam Từ Liêm",ĐẠT,số cạnh 2 / ít nhất 2,7.815066666666667
+Hoàng Mai,Hà Đông,GBFS,Hoàng Mai → Thanh Xuân → Hà Đông,2,17.49780598612358,17.49780598612358,2,True,0.0,2,8,6,"Hoàng Mai, Thanh Xuân",ĐẠT,khớp cài đặt độc lập,6.003133333333333
+Hoàng Mai,Hà Đông,A*,Hoàng Mai → Thanh Xuân → Hà Đông,2,17.49780598612358,17.49780598612358,2,True,0.0,2,8,6,"Hoàng Mai, Thanh Xuân",ĐẠT,17.498 km / ngắn nhất 17.498 km,7.3493
+Hoàng Mai,Hà Đông,UCS,Hoàng Mai → Thanh Xuân → Hà Đông,2,17.49780598612358,17.49780598612358,2,True,0.0,9,12,6,"Hoàng Mai, Hai Bà Trưng, Hoàn Kiếm, Thanh Xuân, Long Biên, Đống Đa, Ba Đình, Cầu Giấy, Tây Hồ",ĐẠT,17.498 km / ngắn nhất 17.498 km,15.858266666666667
+Thanh Xuân,Ba Đình,BFS,Thanh Xuân → Cầu Giấy → Ba Đình,2,11.4,7.7,2,False,48.05194805194806,7,12,8,"Thanh Xuân, Cầu Giấy, Đống Đa, Hai Bà Trưng, Hoàng Mai, Nam Từ Liêm, Hà Đông",ĐẠT,số cạnh 2 / ít nhất 2,7.350766666666666
+Thanh Xuân,Ba Đình,GBFS,Thanh Xuân → Đống Đa → Ba Đình,2,7.7,7.7,2,True,0.0,2,9,7,"Thanh Xuân, Đống Đa",ĐẠT,khớp cài đặt độc lập,7.7561
+Thanh Xuân,Ba Đình,A*,Thanh Xuân → Đống Đa → Ba Đình,2,7.7,7.7,2,True,0.0,2,9,7,"Thanh Xuân, Đống Đa",ĐẠT,7.700 km / ngắn nhất 7.700 km,8.559233333333333
+Thanh Xuân,Ba Đình,UCS,Thanh Xuân → Đống Đa → Ba Đình,2,7.7,7.7,2,True,0.0,5,12,8,"Thanh Xuân, Đống Đa, Cầu Giấy, Hai Bà Trưng, Hà Đông",ĐẠT,7.700 km / ngắn nhất 7.700 km,13.425766666666666
+Thanh Xuân,Hoàn Kiếm,BFS,Thanh Xuân → Đống Đa → Hoàn Kiếm,2,8.9,8.9,2,True,0.0,10,12,8,"Thanh Xuân, Cầu Giấy, Đống Đa, Hai Bà Trưng, Hoàng Mai, Nam Từ Liêm, Hà Đông, Ba Đình, Tây Hồ, Bắc Từ Liêm",ĐẠT,số cạnh 2 / ít nhất 2,8.090399999999999
+Thanh Xuân,Hoàn Kiếm,GBFS,Thanh Xuân → Hai Bà Trưng → Hoàn Kiếm,2,9.72184915660684,8.9,2,False,9.234260186593701,2,9,7,"Thanh Xuân, Hai Bà Trưng",ĐẠT,khớp cài đặt độc lập,6.7268
+Thanh Xuân,Hoàn Kiếm,A*,Thanh Xuân → Đống Đa → Hoàn Kiếm,2,8.9,8.9,2,True,0.0,2,9,7,"Thanh Xuân, Đống Đa",ĐẠT,8.900 km / ngắn nhất 8.900 km,9.6249
+Thanh Xuân,Hoàn Kiếm,UCS,Thanh Xuân → Đống Đa → Hoàn Kiếm,2,8.9,8.9,2,True,0.0,7,13,8,"Thanh Xuân, Đống Đa, Cầu Giấy, Hai Bà Trưng, Hà Đông, Ba Đình, Nam Từ Liêm",ĐẠT,8.900 km / ngắn nhất 8.900 km,14.214866666666667
+Thanh Xuân,Tây Hồ,BFS,Thanh Xuân → Cầu Giấy → Tây Hồ,2,15.4,13.0,2,False,18.461538461538463,8,12,8,"Thanh Xuân, Cầu Giấy, Đống Đa, Hai Bà Trưng, Hoàng Mai, Nam Từ Liêm, Hà Đông, Ba Đình",ĐẠT,số cạnh 2 / ít nhất 2,7.4712
+Thanh Xuân,Tây Hồ,GBFS,Thanh Xuân → Cầu Giấy → Tây Hồ,2,15.4,13.0,2,False,18.461538461538463,2,10,8,"Thanh Xuân, Cầu Giấy",ĐẠT,khớp cài đặt độc lập,7.399366666666666
+Thanh Xuân,Tây Hồ,A*,Thanh Xuân → Đống Đa → Ba Đình → Tây Hồ,3,13.0,13.0,2,True,0.0,4,12,8,"Thanh Xuân, Đống Đa, Cầu Giấy, Ba Đình",ĐẠT,13.000 km / ngắn nhất 13.000 km,13.848133333333333
+Thanh Xuân,Tây Hồ,UCS,Thanh Xuân → Đống Đa → Ba Đình → Tây Hồ,3,13.0,13.0,2,True,0.0,10,13,8,"Thanh Xuân, Đống Đa, Cầu Giấy, Hai Bà Trưng, Hà Đông, Ba Đình, Nam Từ Liêm, Hoàn Kiếm, Hoàng Mai, Bắc Từ Liêm",ĐẠT,13.000 km / ngắn nhất 13.000 km,16.479599999999998
+Thanh Xuân,Long Biên,BFS,Thanh Xuân → Hai Bà Trưng → Long Biên,2,15.1,15.1,2,True,0.0,11,12,8,"Thanh Xuân, Cầu Giấy, Đống Đa, Hai Bà Trưng, Hoàng Mai, Nam Từ Liêm, Hà Đông, Ba Đình, Tây Hồ, Bắc Từ Liêm, Hoàn Kiếm",ĐẠT,số cạnh 2 / ít nhất 2,8.177233333333334
+Thanh Xuân,Long Biên,GBFS,Thanh Xuân → Hai Bà Trưng → Long Biên,2,15.1,15.1,2,True,0.0,2,9,7,"Thanh Xuân, Hai Bà Trưng",ĐẠT,khớp cài đặt độc lập,8.153433333333334
+Thanh Xuân,Long Biên,A*,Thanh Xuân → Hai Bà Trưng → Long Biên,2,15.1,15.1,2,True,0.0,5,11,7,"Thanh Xuân, Đống Đa, Hai Bà Trưng, Hoàn Kiếm, Ba Đình",ĐẠT,15.100 km / ngắn nhất 15.100 km,13.462233333333334
+Thanh Xuân,Long Biên,UCS,Thanh Xuân → Hai Bà Trưng → Long Biên,2,15.1,15.1,2,True,0.0,11,13,8,"Thanh Xuân, Đống Đa, Cầu Giấy, Hai Bà Trưng, Hà Đông, Ba Đình, Nam Từ Liêm, Hoàn Kiếm, Hoàng Mai, Bắc Từ Liêm, Tây Hồ",ĐẠT,15.100 km / ngắn nhất 15.100 km,17.6821
+Thanh Xuân,Cầu Giấy,BFS,Thanh Xuân → Cầu Giấy,1,5.4,5.4,1,True,0.0,1,7,6,Thanh Xuân,ĐẠT,số cạnh 1 / ít nhất 1,3.5801999999999996
+Thanh Xuân,Cầu Giấy,GBFS,Thanh Xuân → Cầu Giấy,1,5.4,5.4,1,True,0.0,1,7,6,Thanh Xuân,ĐẠT,khớp cài đặt độc lập,5.086833333333333
+Thanh Xuân,Cầu Giấy,A*,Thanh Xuân → Cầu Giấy,1,5.4,5.4,1,True,0.0,1,7,6,Thanh Xuân,ĐẠT,5.400 km / ngắn nhất 5.400 km,5.8768666666666665
+Thanh Xuân,Cầu Giấy,UCS,Thanh Xuân → Cầu Giấy,1,5.4,5.4,1,True,0.0,2,9,7,"Thanh Xuân, Đống Đa",ĐẠT,5.400 km / ngắn nhất 5.400 km,8.325899999999999
+Thanh Xuân,Đống Đa,BFS,Thanh Xuân → Đống Đa,1,4.0,4.0,1,True,0.0,2,10,8,"Thanh Xuân, Cầu Giấy",ĐẠT,số cạnh 1 / ít nhất 1,5.118
+Thanh Xuân,Đống Đa,GBFS,Thanh Xuân → Đống Đa,1,4.0,4.0,1,True,0.0,1,7,6,Thanh Xuân,ĐẠT,khớp cài đặt độc lập,6.840666666666667
+Thanh Xuân,Đống Đa,A*,Thanh Xuân → Đống Đa,1,4.0,4.0,1,True,0.0,1,7,6,Thanh Xuân,ĐẠT,4.000 km / ngắn nhất 4.000 km,7.424766666666667
+Thanh Xuân,Đống Đa,UCS,Thanh Xuân → Đống Đa,1,4.0,4.0,1,True,0.0,1,7,6,Thanh Xuân,ĐẠT,4.000 km / ngắn nhất 4.000 km,4.956566666666666
+Thanh Xuân,Hai Bà Trưng,BFS,Thanh Xuân → Hai Bà Trưng,1,7.1,7.1,1,True,0.0,3,11,8,"Thanh Xuân, Cầu Giấy, Đống Đa",ĐẠT,số cạnh 1 / ít nhất 1,5.834899999999999
+Thanh Xuân,Hai Bà Trưng,GBFS,Thanh Xuân → Hai Bà Trưng,1,7.1,7.1,1,True,0.0,1,7,6,Thanh Xuân,ĐẠT,khớp cài đặt độc lập,6.155633333333333
+Thanh Xuân,Hai Bà Trưng,A*,Thanh Xuân → Hai Bà Trưng,1,7.1,7.1,1,True,0.0,1,7,6,Thanh Xuân,ĐẠT,7.100 km / ngắn nhất 7.100 km,6.013466666666666
+Thanh Xuân,Hai Bà Trưng,UCS,Thanh Xuân → Hai Bà Trưng,1,7.1,7.1,1,True,0.0,3,11,8,"Thanh Xuân, Đống Đa, Cầu Giấy",ĐẠT,7.100 km / ngắn nhất 7.100 km,9.8474
+Thanh Xuân,Hoàng Mai,BFS,Thanh Xuân → Hoàng Mai,1,9.8,9.8,1,True,0.0,4,12,8,"Thanh Xuân, Cầu Giấy, Đống Đa, Hai Bà Trưng",ĐẠT,số cạnh 1 / ít nhất 1,6.447033333333334
+Thanh Xuân,Hoàng Mai,GBFS,Thanh Xuân → Hoàng Mai,1,9.8,9.8,1,True,0.0,1,7,6,Thanh Xuân,ĐẠT,khớp cài đặt độc lập,5.172233333333334
+Thanh Xuân,Hoàng Mai,A*,Thanh Xuân → Hoàng Mai,1,9.8,9.8,1,True,0.0,1,7,6,Thanh Xuân,ĐẠT,9.800 km / ngắn nhất 9.800 km,6.145866666666667
+Thanh Xuân,Hoàng Mai,UCS,Thanh Xuân → Hoàng Mai,1,9.8,9.8,1,True,0.0,8,13,8,"Thanh Xuân, Đống Đa, Cầu Giấy, Hai Bà Trưng, Hà Đông, Ba Đình, Nam Từ Liêm, Hoàn Kiếm",ĐẠT,9.800 km / ngắn nhất 9.800 km,15.0974
+Thanh Xuân,Nam Từ Liêm,BFS,Thanh Xuân → Nam Từ Liêm,1,8.2,8.2,1,True,0.0,5,12,8,"Thanh Xuân, Cầu Giấy, Đống Đa, Hai Bà Trưng, Hoàng Mai",ĐẠT,số cạnh 1 / ít nhất 1,6.8106333333333335
+Thanh Xuân,Nam Từ Liêm,GBFS,Thanh Xuân → Nam Từ Liêm,1,8.2,8.2,1,True,0.0,1,7,6,Thanh Xuân,ĐẠT,khớp cài đặt độc lập,5.088866666666667
+Thanh Xuân,Nam Từ Liêm,A*,Thanh Xuân → Nam Từ Liêm,1,8.2,8.2,1,True,0.0,1,7,6,Thanh Xuân,ĐẠT,8.200 km / ngắn nhất 8.200 km,7.078833333333333
+Thanh Xuân,Nam Từ Liêm,UCS,Thanh Xuân → Nam Từ Liêm,1,8.2,8.2,1,True,0.0,6,13,8,"Thanh Xuân, Đống Đa, Cầu Giấy, Hai Bà Trưng, Hà Đông, Ba Đình",ĐẠT,8.200 km / ngắn nhất 8.200 km,13.2605
+Thanh Xuân,Bắc Từ Liêm,BFS,Thanh Xuân → Cầu Giấy → Bắc Từ Liêm,2,12.8,12.8,2,True,0.0,9,12,8,"Thanh Xuân, Cầu Giấy, Đống Đa, Hai Bà Trưng, Hoàng Mai, Nam Từ Liêm, Hà Đông, Ba Đình, Tây Hồ",ĐẠT,số cạnh 2 / ít nhất 2,7.8231
+Thanh Xuân,Bắc Từ Liêm,GBFS,Thanh Xuân → Cầu Giấy → Bắc Từ Liêm,2,12.8,12.8,2,True,0.0,2,10,8,"Thanh Xuân, Cầu Giấy",ĐẠT,khớp cài đặt độc lập,7.4003000000000005
+Thanh Xuân,Bắc Từ Liêm,A*,Thanh Xuân → Cầu Giấy → Bắc Từ Liêm,2,12.8,12.8,2,True,0.0,2,10,8,"Thanh Xuân, Cầu Giấy",ĐẠT,12.800 km / ngắn nhất 12.800 km,9.225866666666667
+Thanh Xuân,Bắc Từ Liêm,UCS,Thanh Xuân → Cầu Giấy → Bắc Từ Liêm,2,12.8,12.8,2,True,0.0,9,13,8,"Thanh Xuân, Đống Đa, Cầu Giấy, Hai Bà Trưng, Hà Đông, Ba Đình, Nam Từ Liêm, Hoàn Kiếm, Hoàng Mai",ĐẠT,12.800 km / ngắn nhất 12.800 km,32.57066666666667
+Thanh Xuân,Hà Đông,BFS,Thanh Xuân → Hà Đông,1,7.697805986123578,7.697805986123578,1,True,0.0,6,12,8,"Thanh Xuân, Cầu Giấy, Đống Đa, Hai Bà Trưng, Hoàng Mai, Nam Từ Liêm",ĐẠT,số cạnh 1 / ít nhất 1,7.116733333333333
+Thanh Xuân,Hà Đông,GBFS,Thanh Xuân → Hà Đông,1,7.697805986123578,7.697805986123578,1,True,0.0,1,7,6,Thanh Xuân,ĐẠT,khớp cài đặt độc lập,5.0942
+Thanh Xuân,Hà Đông,A*,Thanh Xuân → Hà Đông,1,7.697805986123578,7.697805986123578,1,True,0.0,1,7,6,Thanh Xuân,ĐẠT,7.698 km / ngắn nhất 7.698 km,5.923833333333333
+Thanh Xuân,Hà Đông,UCS,Thanh Xuân → Hà Đông,1,7.697805986123578,7.697805986123578,1,True,0.0,4,12,8,"Thanh Xuân, Đống Đa, Cầu Giấy, Hai Bà Trưng",ĐẠT,7.698 km / ngắn nhất 7.698 km,12.202466666666668
+Nam Từ Liêm,Ba Đình,BFS,Nam Từ Liêm → Cầu Giấy → Ba Đình,2,14.9,14.9,2,True,0.0,5,10,7,"Nam Từ Liêm, Cầu Giấy, Thanh Xuân, Bắc Từ Liêm, Hà Đông",ĐẠT,số cạnh 2 / ít nhất 2,6.997666666666667
+Nam Từ Liêm,Ba Đình,GBFS,Nam Từ Liêm → Cầu Giấy → Ba Đình,2,14.9,14.9,2,True,0.0,2,8,6,"Nam Từ Liêm, Cầu Giấy",ĐẠT,khớp cài đặt độc lập,6.145433333333333
+Nam Từ Liêm,Ba Đình,A*,Nam Từ Liêm → Cầu Giấy → Ba Đình,2,14.9,14.9,2,True,0.0,4,12,8,"Nam Từ Liêm, Cầu Giấy, Thanh Xuân, Đống Đa",ĐẠT,14.900 km / ngắn nhất 14.900 km,22.069599999999998
+Nam Từ Liêm,Ba Đình,UCS,Nam Từ Liêm → Cầu Giấy → Ba Đình,2,14.9,14.9,2,True,0.0,5,11,6,"Nam Từ Liêm, Hà Đông, Thanh Xuân, Cầu Giấy, Đống Đa",ĐẠT,14.900 km / ngắn nhất 14.900 km,18.867
+Nam Từ Liêm,Hoàn Kiếm,BFS,Nam Từ Liêm → Cầu Giấy → Ba Đình → Hoàn Kiếm,3,17.83265886185216,17.1,3,False,4.284554747673441,10,12,7,"Nam Từ Liêm, Cầu Giấy, Thanh Xuân, Bắc Từ Liêm, Hà Đông, Ba Đình, Tây Hồ, Đống Đa, Hai Bà Trưng, Hoàng Mai",ĐẠT,số cạnh 3 / ít nhất 3,8.2086
+Nam Từ Liêm,Hoàn Kiếm,GBFS,Nam Từ Liêm → Thanh Xuân → Hai Bà Trưng → Hoàn Kiếm,3,17.92184915660684,17.1,3,False,4.806135418753432,3,10,7,"Nam Từ Liêm, Thanh Xuân, Hai Bà Trưng",ĐẠT,khớp cài đặt độc lập,7.863899999999999
+Nam Từ Liêm,Hoàn Kiếm,A*,Nam Từ Liêm → Thanh Xuân → Đống Đa → Hoàn Kiếm,3,17.1,17.1,3,True,0.0,4,11,7,"Nam Từ Liêm, Thanh Xuân, Cầu Giấy, Đống Đa",ĐẠT,17.100 km / ngắn nhất 17.100 km,13.613299999999999
+Nam Từ Liêm,Hoàn Kiếm,UCS,Nam Từ Liêm → Thanh Xuân → Đống Đa → Hoàn Kiếm,3,17.1,17.1,3,True,0.0,8,12,6,"Nam Từ Liêm, Hà Đông, Thanh Xuân, Cầu Giấy, Đống Đa, Ba Đình, Bắc Từ Liêm, Hai Bà Trưng",ĐẠT,17.100 km / ngắn nhất 17.100 km,14.897733333333333
+Nam Từ Liêm,Tây Hồ,BFS,Nam Từ Liêm → Cầu Giấy → Tây Hồ,2,18.9,18.9,2,True,0.0,6,11,7,"Nam Từ Liêm, Cầu Giấy, Thanh Xuân, Bắc Từ Liêm, Hà Đông, Ba Đình",ĐẠT,số cạnh 2 / ít nhất 2,7.710766666666666
+Nam Từ Liêm,Tây Hồ,GBFS,Nam Từ Liêm → Cầu Giấy → Tây Hồ,2,18.9,18.9,2,True,0.0,2,8,6,"Nam Từ Liêm, Cầu Giấy",ĐẠT,khớp cài đặt độc lập,6.0972333333333335
+Nam Từ Liêm,Tây Hồ,A*,Nam Từ Liêm → Cầu Giấy → Tây Hồ,2,18.9,18.9,2,True,0.0,5,12,8,"Nam Từ Liêm, Cầu Giấy, Thanh Xuân, Đống Đa, Ba Đình",ĐẠT,18.900 km / ngắn nhất 18.900 km,14.205333333333334
+Nam Từ Liêm,Tây Hồ,UCS,Nam Từ Liêm → Cầu Giấy → Tây Hồ,2,18.9,18.9,2,True,0.0,10,12,6,"Nam Từ Liêm, Hà Đông, Thanh Xuân, Cầu Giấy, Đống Đa, Ba Đình, Bắc Từ Liêm, Hai Bà Trưng, Hoàn Kiếm, Hoàng Mai",ĐẠT,18.900 km / ngắn nhất 18.900 km,17.423933333333334
+Nam Từ Liêm,Long Biên,BFS,Nam Từ Liêm → Thanh Xuân → Hai Bà Trưng → Long Biên,3,23.299999999999997,23.299999999999997,3,True,0.0,11,12,7,"Nam Từ Liêm, Cầu Giấy, Thanh Xuân, Bắc Từ Liêm, Hà Đông, Ba Đình, Tây Hồ, Đống Đa, Hai Bà Trưng, Hoàng Mai, Hoàn Kiếm",ĐẠT,số cạnh 3 / ít nhất 3,8.538066666666667
+Nam Từ Liêm,Long Biên,GBFS,Nam Từ Liêm → Thanh Xuân → Hai Bà Trưng → Long Biên,3,23.299999999999997,23.299999999999997,3,True,0.0,3,10,7,"Nam Từ Liêm, Thanh Xuân, Hai Bà Trưng",ĐẠT,khớp cài đặt độc lập,9.4467
+Nam Từ Liêm,Long Biên,A*,Nam Từ Liêm → Thanh Xuân → Hai Bà Trưng → Long Biên,3,23.299999999999997,23.299999999999997,3,True,0.0,7,12,7,"Nam Từ Liêm, Thanh Xuân, Cầu Giấy, Đống Đa, Hai Bà Trưng, Hoàn Kiếm, Ba Đình",ĐẠT,23.300 km / ngắn nhất 23.300 km,18.131566666666664
+Nam Từ Liêm,Long Biên,UCS,Nam Từ Liêm → Thanh Xuân → Hai Bà Trưng → Long Biên,3,23.299999999999997,23.299999999999997,3,True,0.0,11,12,6,"Nam Từ Liêm, Hà Đông, Thanh Xuân, Cầu Giấy, Đống Đa, Ba Đình, Bắc Từ Liêm, Hai Bà Trưng, Hoàn Kiếm, Hoàng Mai, Tây Hồ",ĐẠT,23.300 km / ngắn nhất 23.300 km,17.777166666666666
+Nam Từ Liêm,Cầu Giấy,BFS,Nam Từ Liêm → Cầu Giấy,1,8.9,8.9,1,True,0.0,1,5,4,Nam Từ Liêm,ĐẠT,số cạnh 1 / ít nhất 1,2.7443333333333335
+Nam Từ Liêm,Cầu Giấy,GBFS,Nam Từ Liêm → Cầu Giấy,1,8.9,8.9,1,True,0.0,1,5,4,Nam Từ Liêm,ĐẠT,khớp cài đặt độc lập,4.8656999999999995
+Nam Từ Liêm,Cầu Giấy,A*,Nam Từ Liêm → Cầu Giấy,1,8.9,8.9,1,True,0.0,1,5,4,Nam Từ Liêm,ĐẠT,8.900 km / ngắn nhất 8.900 km,4.3524666666666665
+Nam Từ Liêm,Cầu Giấy,UCS,Nam Từ Liêm → Cầu Giấy,1,8.9,8.9,1,True,0.0,3,8,5,"Nam Từ Liêm, Hà Đông, Thanh Xuân",ĐẠT,8.900 km / ngắn nhất 8.900 km,6.945266666666666
+Nam Từ Liêm,Đống Đa,BFS,Nam Từ Liêm → Cầu Giấy → Đống Đa,2,13.8,12.2,2,False,13.11475409836067,7,11,7,"Nam Từ Liêm, Cầu Giấy, Thanh Xuân, Bắc Từ Liêm, Hà Đông, Ba Đình, Tây Hồ",ĐẠT,số cạnh 2 / ít nhất 2,6.9383333333333335
+Nam Từ Liêm,Đống Đa,GBFS,Nam Từ Liêm → Thanh Xuân → Đống Đa,2,12.2,12.2,2,True,0.0,2,8,6,"Nam Từ Liêm, Thanh Xuân",ĐẠT,khớp cài đặt độc lập,6.170533333333334
+Nam Từ Liêm,Đống Đa,A*,Nam Từ Liêm → Thanh Xuân → Đống Đa,2,12.2,12.2,2,True,0.0,2,8,6,"Nam Từ Liêm, Thanh Xuân",ĐẠT,12.200 km / ngắn nhất 12.200 km,7.888633333333333
+Nam Từ Liêm,Đống Đa,UCS,Nam Từ Liêm → Thanh Xuân → Đống Đa,2,12.2,12.2,2,True,0.0,4,10,6,"Nam Từ Liêm, Hà Đông, Thanh Xuân, Cầu Giấy",ĐẠT,12.200 km / ngắn nhất 12.200 km,10.366466666666668
+Nam Từ Liêm,Hai Bà Trưng,BFS,Nam Từ Liêm → Thanh Xuân → Hai Bà Trưng,2,15.299999999999999,15.299999999999999,2,True,0.0,8,11,7,"Nam Từ Liêm, Cầu Giấy, Thanh Xuân, Bắc Từ Liêm, Hà Đông, Ba Đình, Tây Hồ, Đống Đa",ĐẠT,số cạnh 2 / ít nhất 2,8.411233333333334
+Nam Từ Liêm,Hai Bà Trưng,GBFS,Nam Từ Liêm → Thanh Xuân → Hai Bà Trưng,2,15.299999999999999,15.299999999999999,2,True,0.0,2,8,6,"Nam Từ Liêm, Thanh Xuân",ĐẠT,khớp cài đặt độc lập,6.096566666666667
+Nam Từ Liêm,Hai Bà Trưng,A*,Nam Từ Liêm → Thanh Xuân → Hai Bà Trưng,2,15.299999999999999,15.299999999999999,2,True,0.0,2,8,6,"Nam Từ Liêm, Thanh Xuân",ĐẠT,15.300 km / ngắn nhất 15.300 km,7.796433333333334
+Nam Từ Liêm,Hai Bà Trưng,UCS,Nam Từ Liêm → Thanh Xuân → Hai Bà Trưng,2,15.299999999999999,15.299999999999999,2,True,0.0,7,11,6,"Nam Từ Liêm, Hà Đông, Thanh Xuân, Cầu Giấy, Đống Đa, Ba Đình, Bắc Từ Liêm",ĐẠT,15.300 km / ngắn nhất 15.300 km,14.2135
+Nam Từ Liêm,Hoàng Mai,BFS,Nam Từ Liêm → Thanh Xuân → Hoàng Mai,2,18.0,18.0,2,True,0.0,9,12,7,"Nam Từ Liêm, Cầu Giấy, Thanh Xuân, Bắc Từ Liêm, Hà Đông, Ba Đình, Tây Hồ, Đống Đa, Hai Bà Trưng",ĐẠT,số cạnh 2 / ít nhất 2,7.861033333333333
+Nam Từ Liêm,Hoàng Mai,GBFS,Nam Từ Liêm → Thanh Xuân → Hoàng Mai,2,18.0,18.0,2,True,0.0,2,8,6,"Nam Từ Liêm, Thanh Xuân",ĐẠT,khớp cài đặt độc lập,6.051466666666666
+Nam Từ Liêm,Hoàng Mai,A*,Nam Từ Liêm → Thanh Xuân → Hoàng Mai,2,18.0,18.0,2,True,0.0,3,8,6,"Nam Từ Liêm, Thanh Xuân, Hà Đông",ĐẠT,18.000 km / ngắn nhất 18.000 km,8.1572
+Nam Từ Liêm,Hoàng Mai,UCS,Nam Từ Liêm → Thanh Xuân → Hoàng Mai,2,18.0,18.0,2,True,0.0,9,12,6,"Nam Từ Liêm, Hà Đông, Thanh Xuân, Cầu Giấy, Đống Đa, Ba Đình, Bắc Từ Liêm, Hai Bà Trưng, Hoàn Kiếm",ĐẠT,18.000 km / ngắn nhất 18.000 km,15.5314
+Nam Từ Liêm,Thanh Xuân,BFS,Nam Từ Liêm → Thanh Xuân,1,8.2,8.2,1,True,0.0,2,8,6,"Nam Từ Liêm, Cầu Giấy",ĐẠT,số cạnh 1 / ít nhất 1,4.307666666666667
+Nam Từ Liêm,Thanh Xuân,GBFS,Nam Từ Liêm → Thanh Xuân,1,8.2,8.2,1,True,0.0,1,5,4,Nam Từ Liêm,ĐẠT,khớp cài đặt độc lập,3.6428000000000003
+Nam Từ Liêm,Thanh Xuân,A*,Nam Từ Liêm → Thanh Xuân,1,8.2,8.2,1,True,0.0,1,5,4,Nam Từ Liêm,ĐẠT,8.200 km / ngắn nhất 8.200 km,4.2559
+Nam Từ Liêm,Thanh Xuân,UCS,Nam Từ Liêm → Thanh Xuân,1,8.2,8.2,1,True,0.0,2,5,4,"Nam Từ Liêm, Hà Đông",ĐẠT,8.200 km / ngắn nhất 8.200 km,6.208366666666667
+Nam Từ Liêm,Bắc Từ Liêm,BFS,Nam Từ Liêm → Bắc Từ Liêm,1,15.0,15.0,1,True,0.0,3,10,7,"Nam Từ Liêm, Cầu Giấy, Thanh Xuân",ĐẠT,số cạnh 1 / ít nhất 1,5.358333333333333
+Nam Từ Liêm,Bắc Từ Liêm,GBFS,Nam Từ Liêm → Bắc Từ Liêm,1,15.0,15.0,1,True,0.0,1,5,4,Nam Từ Liêm,ĐẠT,khớp cài đặt độc lập,3.7375333333333334
+Nam Từ Liêm,Bắc Từ Liêm,A*,Nam Từ Liêm → Bắc Từ Liêm,1,15.0,15.0,1,True,0.0,2,8,6,"Nam Từ Liêm, Cầu Giấy",ĐẠT,15.000 km / ngắn nhất 15.000 km,7.684166666666667
+Nam Từ Liêm,Bắc Từ Liêm,UCS,Nam Từ Liêm → Bắc Từ Liêm,1,15.0,15.0,1,True,0.0,6,11,6,"Nam Từ Liêm, Hà Đông, Thanh Xuân, Cầu Giấy, Đống Đa, Ba Đình",ĐẠT,15.000 km / ngắn nhất 15.000 km,13.295366666666666
+Nam Từ Liêm,Hà Đông,BFS,Nam Từ Liêm → Hà Đông,1,6.588696077373732,6.588696077373732,1,True,0.0,4,10,7,"Nam Từ Liêm, Cầu Giấy, Thanh Xuân, Bắc Từ Liêm",ĐẠT,số cạnh 1 / ít nhất 1,5.720566666666667
+Nam Từ Liêm,Hà Đông,GBFS,Nam Từ Liêm → Hà Đông,1,6.588696077373732,6.588696077373732,1,True,0.0,1,5,4,Nam Từ Liêm,ĐẠT,khớp cài đặt độc lập,3.7430666666666665
+Nam Từ Liêm,Hà Đông,A*,Nam Từ Liêm → Hà Đông,1,6.588696077373732,6.588696077373732,1,True,0.0,1,5,4,Nam Từ Liêm,ĐẠT,6.589 km / ngắn nhất 6.589 km,4.356133333333333
+Nam Từ Liêm,Hà Đông,UCS,Nam Từ Liêm → Hà Đông,1,6.588696077373732,6.588696077373732,1,True,0.0,1,5,4,Nam Từ Liêm,ĐẠT,6.589 km / ngắn nhất 6.589 km,3.7184333333333335
+Bắc Từ Liêm,Ba Đình,BFS,Bắc Từ Liêm → Tây Hồ → Ba Đình,2,13.3,13.3,2,True,0.0,4,8,4,"Bắc Từ Liêm, Tây Hồ, Cầu Giấy, Nam Từ Liêm",ĐẠT,số cạnh 2 / ít nhất 2,6.289633333333334
+Bắc Từ Liêm,Ba Đình,GBFS,Bắc Từ Liêm → Tây Hồ → Ba Đình,2,13.3,13.3,2,True,0.0,2,5,3,"Bắc Từ Liêm, Tây Hồ",ĐẠT,khớp cài đặt độc lập,4.0107
+Bắc Từ Liêm,Ba Đình,A*,Bắc Từ Liêm → Tây Hồ → Ba Đình,2,13.3,13.3,2,True,0.0,3,8,5,"Bắc Từ Liêm, Cầu Giấy, Tây Hồ",ĐẠT,13.300 km / ngắn nhất 13.300 km,9.927866666666667
+Bắc Từ Liêm,Ba Đình,UCS,Bắc Từ Liêm → Tây Hồ → Ba Đình,2,13.3,13.3,2,True,0.0,5,12,7,"Bắc Từ Liêm, Cầu Giấy, Tây Hồ, Đống Đa, Thanh Xuân",ĐẠT,13.300 km / ngắn nhất 13.300 km,23.952099999999998
+Bắc Từ Liêm,Hoàn Kiếm,BFS,Bắc Từ Liêm → Tây Hồ → Ba Đình → Hoàn Kiếm,3,16.23265886185216,16.232658861852162,3,True,-2.220446049250313e-14,8,11,4,"Bắc Từ Liêm, Tây Hồ, Cầu Giấy, Nam Từ Liêm, Ba Đình, Đống Đa, Thanh Xuân, Hà Đông",ĐẠT,số cạnh 3 / ít nhất 3,7.2914666666666665
+Bắc Từ Liêm,Hoàn Kiếm,GBFS,Bắc Từ Liêm → Tây Hồ → Ba Đình → Hoàn Kiếm,3,16.23265886185216,16.232658861852162,3,True,-2.220446049250313e-14,3,7,4,"Bắc Từ Liêm, Tây Hồ, Ba Đình",ĐẠT,khớp cài đặt độc lập,6.401633333333333
+Bắc Từ Liêm,Hoàn Kiếm,A*,Bắc Từ Liêm → Tây Hồ → Ba Đình → Hoàn Kiếm,3,16.23265886185216,16.232658861852162,3,True,-2.220446049250313e-14,5,10,5,"Bắc Từ Liêm, Tây Hồ, Cầu Giấy, Đống Đa, Ba Đình",ĐẠT,16.233 km / ngắn nhất 16.233 km,11.651833333333334
+Bắc Từ Liêm,Hoàn Kiếm,UCS,Bắc Từ Liêm → Tây Hồ → Ba Đình → Hoàn Kiếm,3,16.23265886185216,16.232658861852162,3,True,-2.220446049250313e-14,7,13,7,"Bắc Từ Liêm, Cầu Giấy, Tây Hồ, Đống Đa, Thanh Xuân, Ba Đình, Nam Từ Liêm",ĐẠT,16.233 km / ngắn nhất 16.233 km,15.068133333333334
+Bắc Từ Liêm,Tây Hồ,BFS,Bắc Từ Liêm → Tây Hồ,1,8.0,8.0,1,True,0.0,1,4,3,Bắc Từ Liêm,ĐẠT,số cạnh 1 / ít nhất 1,3.596233333333333
+Bắc Từ Liêm,Tây Hồ,GBFS,Bắc Từ Liêm → Tây Hồ,1,8.0,8.0,1,True,0.0,1,4,3,Bắc Từ Liêm,ĐẠT,khớp cài đặt độc lập,3.0694
+Bắc Từ Liêm,Tây Hồ,A*,Bắc Từ Liêm → Tây Hồ,1,8.0,8.0,1,True,0.0,1,4,3,Bắc Từ Liêm,ĐẠT,8.000 km / ngắn nhất 8.000 km,4.6882
+Bắc Từ Liêm,Tây Hồ,UCS,Bắc Từ Liêm → Tây Hồ,1,8.0,8.0,1,True,0.0,2,7,5,"Bắc Từ Liêm, Cầu Giấy",ĐẠT,8.000 km / ngắn nhất 8.000 km,5.9676
+Bắc Từ Liêm,Long Biên,BFS,Bắc Từ Liêm → Tây Hồ → Ba Đình → Hoàn Kiếm → Long Biên,4,23.03265886185216,23.032658861852163,4,True,-1.1102230246251565e-14,11,12,4,"Bắc Từ Liêm, Tây Hồ, Cầu Giấy, Nam Từ Liêm, Ba Đình, Đống Đa, Thanh Xuân, Hà Đông, Hoàn Kiếm, Hai Bà Trưng, Hoàng Mai",ĐẠT,số cạnh 4 / ít nhất 4,8.970433333333332
+Bắc Từ Liêm,Long Biên,GBFS,Bắc Từ Liêm → Tây Hồ → Ba Đình → Hoàn Kiếm → Long Biên,4,23.03265886185216,23.032658861852163,4,True,-1.1102230246251565e-14,4,9,5,"Bắc Từ Liêm, Tây Hồ, Ba Đình, Hoàn Kiếm",ĐẠT,khớp cài đặt độc lập,8.876033333333332
+Bắc Từ Liêm,Long Biên,A*,Bắc Từ Liêm → Tây Hồ → Ba Đình → Hoàn Kiếm → Long Biên,4,23.03265886185216,23.032658861852163,4,True,-1.1102230246251565e-14,8,14,5,"Bắc Từ Liêm, Tây Hồ, Cầu Giấy, Đống Đa, Ba Đình, Hoàn Kiếm, Hai Bà Trưng, Thanh Xuân",ĐẠT,23.033 km / ngắn nhất 23.033 km,17.82046666666667
+Bắc Từ Liêm,Long Biên,UCS,Bắc Từ Liêm → Tây Hồ → Ba Đình → Hoàn Kiếm → Long Biên,4,23.03265886185216,23.032658861852163,4,True,-1.1102230246251565e-14,11,14,7,"Bắc Từ Liêm, Cầu Giấy, Tây Hồ, Đống Đa, Thanh Xuân, Ba Đình, Nam Từ Liêm, Hoàn Kiếm, Hai Bà Trưng, Hà Đông, Hoàng Mai",ĐẠT,23.033 km / ngắn nhất 23.033 km,18.387433333333334
+Bắc Từ Liêm,Cầu Giấy,BFS,Bắc Từ Liêm → Cầu Giấy,1,7.4,7.4,1,True,0.0,2,5,3,"Bắc Từ Liêm, Tây Hồ",ĐẠT,số cạnh 1 / ít nhất 1,3.0278333333333336
+Bắc Từ Liêm,Cầu Giấy,GBFS,Bắc Từ Liêm → Cầu Giấy,1,7.4,7.4,1,True,0.0,1,4,3,Bắc Từ Liêm,ĐẠT,khớp cài đặt độc lập,4.146366666666667
+Bắc Từ Liêm,Cầu Giấy,A*,Bắc Từ Liêm → Cầu Giấy,1,7.4,7.4,1,True,0.0,1,4,3,Bắc Từ Liêm,ĐẠT,7.400 km / ngắn nhất 7.400 km,3.577233333333333
+Bắc Từ Liêm,Cầu Giấy,UCS,Bắc Từ Liêm → Cầu Giấy,1,7.4,7.4,1,True,0.0,1,4,3,Bắc Từ Liêm,ĐẠT,7.400 km / ngắn nhất 7.400 km,3.1600333333333332
+Bắc Từ Liêm,Đống Đa,BFS,Bắc Từ Liêm → Cầu Giấy → Đống Đa,2,12.3,12.3,2,True,0.0,5,9,4,"Bắc Từ Liêm, Tây Hồ, Cầu Giấy, Nam Từ Liêm, Ba Đình",ĐẠT,số cạnh 2 / ít nhất 2,5.706033333333334
+Bắc Từ Liêm,Đống Đa,GBFS,Bắc Từ Liêm → Cầu Giấy → Đống Đa,2,12.3,12.3,2,True,0.0,2,7,5,"Bắc Từ Liêm, Cầu Giấy",ĐẠT,khớp cài đặt độc lập,5.580466666666666
+Bắc Từ Liêm,Đống Đa,A*,Bắc Từ Liêm → Cầu Giấy → Đống Đa,2,12.3,12.3,2,True,0.0,2,7,5,"Bắc Từ Liêm, Cầu Giấy",ĐẠT,12.300 km / ngắn nhất 12.300 km,7.0174666666666665
+Bắc Từ Liêm,Đống Đa,UCS,Bắc Từ Liêm → Cầu Giấy → Đống Đa,2,12.3,12.3,2,True,0.0,3,8,5,"Bắc Từ Liêm, Cầu Giấy, Tây Hồ",ĐẠT,12.300 km / ngắn nhất 12.300 km,7.008033333333334
+Bắc Từ Liêm,Hai Bà Trưng,BFS,Bắc Từ Liêm → Cầu Giấy → Đống Đa → Hai Bà Trưng,3,17.0,17.0,3,True,0.0,9,12,4,"Bắc Từ Liêm, Tây Hồ, Cầu Giấy, Nam Từ Liêm, Ba Đình, Đống Đa, Thanh Xuân, Hà Đông, Hoàn Kiếm",ĐẠT,số cạnh 3 / ít nhất 3,8.046766666666667
+Bắc Từ Liêm,Hai Bà Trưng,GBFS,Bắc Từ Liêm → Cầu Giấy → Đống Đa → Hai Bà Trưng,3,17.0,17.0,3,True,0.0,3,9,6,"Bắc Từ Liêm, Cầu Giấy, Đống Đa",ĐẠT,khớp cài đặt độc lập,8.440933333333332
+Bắc Từ Liêm,Hai Bà Trưng,A*,Bắc Từ Liêm → Cầu Giấy → Đống Đa → Hai Bà Trưng,3,17.0,17.0,3,True,0.0,4,10,6,"Bắc Từ Liêm, Cầu Giấy, Đống Đa, Tây Hồ",ĐẠT,17.000 km / ngắn nhất 17.000 km,10.8881
+Bắc Từ Liêm,Hai Bà Trưng,UCS,Bắc Từ Liêm → Cầu Giấy → Đống Đa → Hai Bà Trưng,3,17.0,17.0,3,True,0.0,8,14,7,"Bắc Từ Liêm, Cầu Giấy, Tây Hồ, Đống Đa, Thanh Xuân, Ba Đình, Nam Từ Liêm, Hoàn Kiếm",ĐẠT,17.000 km / ngắn nhất 17.000 km,16.265833333333333
+Bắc Từ Liêm,Hoàng Mai,BFS,Bắc Từ Liêm → Cầu Giấy → Thanh Xuân → Hoàng Mai,3,22.6,22.6,3,True,0.0,10,12,4,"Bắc Từ Liêm, Tây Hồ, Cầu Giấy, Nam Từ Liêm, Ba Đình, Đống Đa, Thanh Xuân, Hà Đông, Hoàn Kiếm, Hai Bà Trưng",ĐẠT,số cạnh 3 / ít nhất 3,8.340133333333334
+Bắc Từ Liêm,Hoàng Mai,GBFS,Bắc Từ Liêm → Cầu Giấy → Thanh Xuân → Hoàng Mai,3,22.6,22.6,3,True,0.0,3,10,7,"Bắc Từ Liêm, Cầu Giấy, Thanh Xuân",ĐẠT,khớp cài đặt độc lập,7.972833333333333
+Bắc Từ Liêm,Hoàng Mai,A*,Bắc Từ Liêm → Cầu Giấy → Thanh Xuân → Hoàng Mai,3,22.6,22.6,3,True,0.0,8,16,8,"Bắc Từ Liêm, Cầu Giấy, Thanh Xuân, Đống Đa, Tây Hồ, Hai Bà Trưng, Ba Đình, Hoàn Kiếm",ĐẠT,22.600 km / ngắn nhất 22.600 km,19.394033333333333
+Bắc Từ Liêm,Hoàng Mai,UCS,Bắc Từ Liêm → Cầu Giấy → Thanh Xuân → Hoàng Mai,3,22.6,22.6,3,True,0.0,10,14,7,"Bắc Từ Liêm, Cầu Giấy, Tây Hồ, Đống Đa, Thanh Xuân, Ba Đình, Nam Từ Liêm, Hoàn Kiếm, Hai Bà Trưng, Hà Đông",ĐẠT,22.600 km / ngắn nhất 22.600 km,17.572133333333333
+Bắc Từ Liêm,Thanh Xuân,BFS,Bắc Từ Liêm → Cầu Giấy → Thanh Xuân,2,12.8,12.8,2,True,0.0,6,10,4,"Bắc Từ Liêm, Tây Hồ, Cầu Giấy, Nam Từ Liêm, Ba Đình, Đống Đa",ĐẠT,số cạnh 2 / ít nhất 2,6.270133333333333
+Bắc Từ Liêm,Thanh Xuân,GBFS,Bắc Từ Liêm → Cầu Giấy → Thanh Xuân,2,12.8,12.8,2,True,0.0,2,7,5,"Bắc Từ Liêm, Cầu Giấy",ĐẠT,khớp cài đặt độc lập,6.906733333333333
+Bắc Từ Liêm,Thanh Xuân,A*,Bắc Từ Liêm → Cầu Giấy → Thanh Xuân,2,12.8,12.8,2,True,0.0,2,7,5,"Bắc Từ Liêm, Cầu Giấy",ĐẠT,12.800 km / ngắn nhất 12.800 km,8.2143
+Bắc Từ Liêm,Thanh Xuân,UCS,Bắc Từ Liêm → Cầu Giấy → Thanh Xuân,2,12.8,12.8,2,True,0.0,4,10,6,"Bắc Từ Liêm, Cầu Giấy, Tây Hồ, Đống Đa",ĐẠT,12.800 km / ngắn nhất 12.800 km,9.411933333333332
+Bắc Từ Liêm,Nam Từ Liêm,BFS,Bắc Từ Liêm → Nam Từ Liêm,1,15.0,15.0,1,True,0.0,3,7,4,"Bắc Từ Liêm, Tây Hồ, Cầu Giấy",ĐẠT,số cạnh 1 / ít nhất 1,4.193266666666666
+Bắc Từ Liêm,Nam Từ Liêm,GBFS,Bắc Từ Liêm → Nam Từ Liêm,1,15.0,15.0,1,True,0.0,1,4,3,Bắc Từ Liêm,ĐẠT,khớp cài đặt độc lập,2.9970333333333334
+Bắc Từ Liêm,Nam Từ Liêm,A*,Bắc Từ Liêm → Nam Từ Liêm,1,15.0,15.0,1,True,0.0,2,7,5,"Bắc Từ Liêm, Cầu Giấy",ĐẠT,15.000 km / ngắn nhất 15.000 km,8.083666666666668
+Bắc Từ Liêm,Nam Từ Liêm,UCS,Bắc Từ Liêm → Nam Từ Liêm,1,15.0,15.0,1,True,0.0,6,13,7,"Bắc Từ Liêm, Cầu Giấy, Tây Hồ, Đống Đa, Thanh Xuân, Ba Đình",ĐẠT,15.000 km / ngắn nhất 15.000 km,12.876033333333332
+Bắc Từ Liêm,Hà Đông,BFS,Bắc Từ Liêm → Nam Từ Liêm → Hà Đông,2,21.588696077373733,20.49780598612358,2,False,5.321984665035151,7,11,4,"Bắc Từ Liêm, Tây Hồ, Cầu Giấy, Nam Từ Liêm, Ba Đình, Đống Đa, Thanh Xuân",ĐẠT,số cạnh 2 / ít nhất 2,6.942633333333333
+Bắc Từ Liêm,Hà Đông,GBFS,Bắc Từ Liêm → Nam Từ Liêm → Hà Đông,2,21.588696077373733,20.49780598612358,2,False,5.321984665035151,2,6,4,"Bắc Từ Liêm, Nam Từ Liêm",ĐẠT,khớp cài đặt độc lập,4.753933333333333
+Bắc Từ Liêm,Hà Đông,A*,Bắc Từ Liêm → Cầu Giấy → Thanh Xuân → Hà Đông,3,20.49780598612358,20.49780598612358,2,True,0.0,3,10,7,"Bắc Từ Liêm, Cầu Giấy, Thanh Xuân",ĐẠT,20.498 km / ngắn nhất 20.498 km,11.3994
+Bắc Từ Liêm,Hà Đông,UCS,Bắc Từ Liêm → Cầu Giấy → Thanh Xuân → Hà Đông,3,20.49780598612358,20.49780598612358,2,True,0.0,9,14,7,"Bắc Từ Liêm, Cầu Giấy, Tây Hồ, Đống Đa, Thanh Xuân, Ba Đình, Nam Từ Liêm, Hoàn Kiếm, Hai Bà Trưng",ĐẠT,20.498 km / ngắn nhất 20.498 km,16.3135
+Hà Đông,Ba Đình,BFS,Hà Đông → Thanh Xuân → Cầu Giấy → Ba Đình,3,19.09780598612358,15.39780598612358,3,False,24.02939745658843,8,12,6,"Hà Đông, Thanh Xuân, Nam Từ Liêm, Cầu Giấy, Đống Đa, Hai Bà Trưng, Hoàng Mai, Bắc Từ Liêm",ĐẠT,số cạnh 3 / ít nhất 3,7.565533333333334
+Hà Đông,Ba Đình,GBFS,Hà Đông → Thanh Xuân → Đống Đa → Ba Đình,3,15.39780598612358,15.39780598612358,3,True,0.0,3,9,6,"Hà Đông, Thanh Xuân, Đống Đa",ĐẠT,khớp cài đặt độc lập,7.088033333333334
+Hà Đông,Ba Đình,A*,Hà Đông → Thanh Xuân → Đống Đa → Ba Đình,3,15.39780598612358,15.39780598612358,3,True,0.0,4,10,6,"Hà Đông, Thanh Xuân, Nam Từ Liêm, Đống Đa",ĐẠT,15.398 km / ngắn nhất 15.398 km,11.753200000000001
+Hà Đông,Ba Đình,UCS,Hà Đông → Thanh Xuân → Đống Đa → Ba Đình,3,15.39780598612358,15.39780598612358,3,True,0.0,6,14,8,"Hà Đông, Nam Từ Liêm, Thanh Xuân, Đống Đa, Cầu Giấy, Hai Bà Trưng",ĐẠT,15.398 km / ngắn nhất 15.398 km,14.4442
+Hà Đông,Hoàn Kiếm,BFS,Hà Đông → Thanh Xuân → Đống Đa → Hoàn Kiếm,3,16.59780598612358,16.59780598612358,3,True,0.0,10,12,6,"Hà Đông, Thanh Xuân, Nam Từ Liêm, Cầu Giấy, Đống Đa, Hai Bà Trưng, Hoàng Mai, Bắc Từ Liêm, Ba Đình, Tây Hồ",ĐẠT,số cạnh 3 / ít nhất 3,8.021333333333333
+Hà Đông,Hoàn Kiếm,GBFS,Hà Đông → Thanh Xuân → Hai Bà Trưng → Hoàn Kiếm,3,17.419655142730416,16.59780598612358,3,False,4.951552978110096,3,9,6,"Hà Đông, Thanh Xuân, Hai Bà Trưng",ĐẠT,khớp cài đặt độc lập,8.144866666666667
+Hà Đông,Hoàn Kiếm,A*,Hà Đông → Thanh Xuân → Đống Đa → Hoàn Kiếm,3,16.59780598612358,16.59780598612358,3,True,0.0,4,10,6,"Hà Đông, Thanh Xuân, Đống Đa, Nam Từ Liêm",ĐẠT,16.598 km / ngắn nhất 16.598 km,10.636166666666666
+Hà Đông,Hoàn Kiếm,UCS,Hà Đông → Thanh Xuân → Đống Đa → Hoàn Kiếm,3,16.59780598612358,16.59780598612358,3,True,0.0,7,15,8,"Hà Đông, Nam Từ Liêm, Thanh Xuân, Đống Đa, Cầu Giấy, Hai Bà Trưng, Ba Đình",ĐẠT,16.598 km / ngắn nhất 16.598 km,15.317733333333333
+Hà Đông,Tây Hồ,BFS,Hà Đông → Thanh Xuân → Cầu Giấy → Tây Hồ,3,23.09780598612358,20.69780598612358,3,False,11.595431910073128,9,12,6,"Hà Đông, Thanh Xuân, Nam Từ Liêm, Cầu Giấy, Đống Đa, Hai Bà Trưng, Hoàng Mai, Bắc Từ Liêm, Ba Đình",ĐẠT,số cạnh 3 / ít nhất 3,7.894699999999999
+Hà Đông,Tây Hồ,GBFS,Hà Đông → Thanh Xuân → Cầu Giấy → Tây Hồ,3,23.09780598612358,20.69780598612358,3,False,11.595431910073128,3,10,7,"Hà Đông, Thanh Xuân, Cầu Giấy",ĐẠT,khớp cài đặt độc lập,7.678233333333334
+Hà Đông,Tây Hồ,A*,Hà Đông → Thanh Xuân → Đống Đa → Ba Đình → Tây Hồ,4,20.697805986123576,20.69780598612358,3,True,-2.220446049250313e-14,6,14,8,"Hà Đông, Nam Từ Liêm, Thanh Xuân, Đống Đa, Cầu Giấy, Ba Đình",ĐẠT,20.698 km / ngắn nhất 20.698 km,16.665233333333333
+Hà Đông,Tây Hồ,UCS,Hà Đông → Thanh Xuân → Đống Đa → Ba Đình → Tây Hồ,4,20.697805986123576,20.69780598612358,3,True,-2.220446049250313e-14,10,15,8,"Hà Đông, Nam Từ Liêm, Thanh Xuân, Đống Đa, Cầu Giấy, Hai Bà Trưng, Ba Đình, Hoàn Kiếm, Hoàng Mai, Bắc Từ Liêm",ĐẠT,20.698 km / ngắn nhất 20.698 km,17.285433333333334
+Hà Đông,Long Biên,BFS,Hà Đông → Thanh Xuân → Hai Bà Trưng → Long Biên,3,22.797805986123578,22.797805986123578,3,True,0.0,11,12,6,"Hà Đông, Thanh Xuân, Nam Từ Liêm, Cầu Giấy, Đống Đa, Hai Bà Trưng, Hoàng Mai, Bắc Từ Liêm, Ba Đình, Tây Hồ, Hoàn Kiếm",ĐẠT,số cạnh 3 / ít nhất 3,8.341899999999999
+Hà Đông,Long Biên,GBFS,Hà Đông → Thanh Xuân → Hai Bà Trưng → Long Biên,3,22.797805986123578,22.797805986123578,3,True,0.0,3,9,6,"Hà Đông, Thanh Xuân, Hai Bà Trưng",ĐẠT,khớp cài đặt độc lập,7.250866666666667
+Hà Đông,Long Biên,A*,Hà Đông → Thanh Xuân → Hai Bà Trưng → Long Biên,3,22.797805986123578,22.797805986123578,3,True,0.0,7,12,6,"Hà Đông, Thanh Xuân, Đống Đa, Hai Bà Trưng, Nam Từ Liêm, Hoàn Kiếm, Ba Đình",ĐẠT,22.798 km / ngắn nhất 22.798 km,16.7183
+Hà Đông,Long Biên,UCS,Hà Đông → Thanh Xuân → Hai Bà Trưng → Long Biên,3,22.797805986123578,22.797805986123578,3,True,0.0,11,15,8,"Hà Đông, Nam Từ Liêm, Thanh Xuân, Đống Đa, Cầu Giấy, Hai Bà Trưng, Ba Đình, Hoàn Kiếm, Hoàng Mai, Bắc Từ Liêm, Tây Hồ",ĐẠT,22.798 km / ngắn nhất 22.798 km,23.392666666666667
+Hà Đông,Cầu Giấy,BFS,Hà Đông → Thanh Xuân → Cầu Giấy,2,13.097805986123578,13.097805986123578,2,True,0.0,3,8,5,"Hà Đông, Thanh Xuân, Nam Từ Liêm",ĐẠT,số cạnh 2 / ít nhất 2,4.577066666666666
+Hà Đông,Cầu Giấy,GBFS,Hà Đông → Nam Từ Liêm → Cầu Giấy,2,15.488696077373731,13.097805986123578,2,False,18.25412663604249,2,5,3,"Hà Đông, Nam Từ Liêm",ĐẠT,khớp cài đặt độc lập,3.9573666666666667
+Hà Đông,Cầu Giấy,A*,Hà Đông → Thanh Xuân → Cầu Giấy,2,13.097805986123578,13.097805986123578,2,True,0.0,3,9,6,"Hà Đông, Nam Từ Liêm, Thanh Xuân",ĐẠT,13.098 km / ngắn nhất 13.098 km,9.779766666666667
+Hà Đông,Cầu Giấy,UCS,Hà Đông → Thanh Xuân → Cầu Giấy,2,13.097805986123578,13.097805986123578,2,True,0.0,4,11,7,"Hà Đông, Nam Từ Liêm, Thanh Xuân, Đống Đa",ĐẠT,13.098 km / ngắn nhất 13.098 km,9.7246
+Hà Đông,Đống Đa,BFS,Hà Đông → Thanh Xuân → Đống Đa,2,11.697805986123578,11.697805986123578,2,True,0.0,4,10,6,"Hà Đông, Thanh Xuân, Nam Từ Liêm, Cầu Giấy",ĐẠT,số cạnh 2 / ít nhất 2,5.741366666666667
+Hà Đông,Đống Đa,GBFS,Hà Đông → Thanh Xuân → Đống Đa,2,11.697805986123578,11.697805986123578,2,True,0.0,2,7,5,"Hà Đông, Thanh Xuân",ĐẠT,khớp cài đặt độc lập,5.463233333333333
+Hà Đông,Đống Đa,A*,Hà Đông → Thanh Xuân → Đống Đa,2,11.697805986123578,11.697805986123578,2,True,0.0,2,7,5,"Hà Đông, Thanh Xuân",ĐẠT,11.698 km / ngắn nhất 11.698 km,6.546633333333333
+Hà Đông,Đống Đa,UCS,Hà Đông → Thanh Xuân → Đống Đa,2,11.697805986123578,11.697805986123578,2,True,0.0,3,9,6,"Hà Đông, Nam Từ Liêm, Thanh Xuân",ĐẠT,11.698 km / ngắn nhất 11.698 km,8.350299999999999
+Hà Đông,Hai Bà Trưng,BFS,Hà Đông → Thanh Xuân → Hai Bà Trưng,2,14.797805986123578,14.797805986123578,2,True,0.0,5,11,6,"Hà Đông, Thanh Xuân, Nam Từ Liêm, Cầu Giấy, Đống Đa",ĐẠT,số cạnh 2 / ít nhất 2,7.565266666666666
+Hà Đông,Hai Bà Trưng,GBFS,Hà Đông → Thanh Xuân → Hai Bà Trưng,2,14.797805986123578,14.797805986123578,2,True,0.0,2,7,5,"Hà Đông, Thanh Xuân",ĐẠT,khớp cài đặt độc lập,5.410166666666667
+Hà Đông,Hai Bà Trưng,A*,Hà Đông → Thanh Xuân → Hai Bà Trưng,2,14.797805986123578,14.797805986123578,2,True,0.0,2,7,5,"Hà Đông, Thanh Xuân",ĐẠT,14.798 km / ngắn nhất 14.798 km,6.576833333333333
+Hà Đông,Hai Bà Trưng,UCS,Hà Đông → Thanh Xuân → Hai Bà Trưng,2,14.797805986123578,14.797805986123578,2,True,0.0,5,13,8,"Hà Đông, Nam Từ Liêm, Thanh Xuân, Đống Đa, Cầu Giấy",ĐẠT,14.798 km / ngắn nhất 14.798 km,11.670166666666667
+Hà Đông,Hoàng Mai,BFS,Hà Đông → Thanh Xuân → Hoàng Mai,2,17.49780598612358,17.49780598612358,2,True,0.0,6,12,6,"Hà Đông, Thanh Xuân, Nam Từ Liêm, Cầu Giấy, Đống Đa, Hai Bà Trưng",ĐẠT,số cạnh 2 / ít nhất 2,7.0359
+Hà Đông,Hoàng Mai,GBFS,Hà Đông → Thanh Xuân → Hoàng Mai,2,17.49780598612358,17.49780598612358,2,True,0.0,2,7,5,"Hà Đông, Thanh Xuân",ĐẠT,khớp cài đặt độc lập,5.324033333333333
+Hà Đông,Hoàng Mai,A*,Hà Đông → Thanh Xuân → Hoàng Mai,2,17.49780598612358,17.49780598612358,2,True,0.0,2,7,5,"Hà Đông, Thanh Xuân",ĐẠT,17.498 km / ngắn nhất 17.498 km,7.732866666666667
+Hà Đông,Hoàng Mai,UCS,Hà Đông → Thanh Xuân → Hoàng Mai,2,17.49780598612358,17.49780598612358,2,True,0.0,8,15,8,"Hà Đông, Nam Từ Liêm, Thanh Xuân, Đống Đa, Cầu Giấy, Hai Bà Trưng, Ba Đình, Hoàn Kiếm",ĐẠT,17.498 km / ngắn nhất 17.498 km,15.759799999999998
+Hà Đông,Thanh Xuân,BFS,Hà Đông → Thanh Xuân,1,7.697805986123578,7.697805986123578,1,True,0.0,1,3,2,Hà Đông,ĐẠT,số cạnh 1 / ít nhất 1,1.9359333333333333
+Hà Đông,Thanh Xuân,GBFS,Hà Đông → Thanh Xuân,1,7.697805986123578,7.697805986123578,1,True,0.0,1,3,2,Hà Đông,ĐẠT,khớp cài đặt độc lập,2.3497
+Hà Đông,Thanh Xuân,A*,Hà Đông → Thanh Xuân,1,7.697805986123578,7.697805986123578,1,True,0.0,1,3,2,Hà Đông,ĐẠT,7.698 km / ngắn nhất 7.698 km,2.8665333333333334
+Hà Đông,Thanh Xuân,UCS,Hà Đông → Thanh Xuân,1,7.697805986123578,7.697805986123578,1,True,0.0,2,5,3,"Hà Đông, Nam Từ Liêm",ĐẠT,7.698 km / ngắn nhất 7.698 km,4.292033333333333
+Hà Đông,Nam Từ Liêm,BFS,Hà Đông → Nam Từ Liêm,1,6.588696077373732,6.588696077373732,1,True,0.0,2,7,5,"Hà Đông, Thanh Xuân",ĐẠT,số cạnh 1 / ít nhất 1,3.8043
+Hà Đông,Nam Từ Liêm,GBFS,Hà Đông → Nam Từ Liêm,1,6.588696077373732,6.588696077373732,1,True,0.0,1,3,2,Hà Đông,ĐẠT,khớp cài đặt độc lập,2.3113
+Hà Đông,Nam Từ Liêm,A*,Hà Đông → Nam Từ Liêm,1,6.588696077373732,6.588696077373732,1,True,0.0,1,3,2,Hà Đông,ĐẠT,6.589 km / ngắn nhất 6.589 km,2.9139666666666666
+Hà Đông,Nam Từ Liêm,UCS,Hà Đông → Nam Từ Liêm,1,6.588696077373732,6.588696077373732,1,True,0.0,1,3,2,Hà Đông,ĐẠT,6.589 km / ngắn nhất 6.589 km,2.4378
+Hà Đông,Bắc Từ Liêm,BFS,Hà Đông → Nam Từ Liêm → Bắc Từ Liêm,2,21.588696077373733,20.49780598612358,2,False,5.321984665035151,7,12,6,"Hà Đông, Thanh Xuân, Nam Từ Liêm, Cầu Giấy, Đống Đa, Hai Bà Trưng, Hoàng Mai",ĐẠT,số cạnh 2 / ít nhất 2,8.589366666666667
+Hà Đông,Bắc Từ Liêm,GBFS,Hà Đông → Nam Từ Liêm → Bắc Từ Liêm,2,21.588696077373733,20.49780598612358,2,False,5.321984665035151,2,5,3,"Hà Đông, Nam Từ Liêm",ĐẠT,khớp cài đặt độc lập,3.942733333333333
+Hà Đông,Bắc Từ Liêm,A*,Hà Đông → Thanh Xuân → Cầu Giấy → Bắc Từ Liêm,3,20.49780598612358,20.49780598612358,2,True,0.0,4,12,8,"Hà Đông, Nam Từ Liêm, Thanh Xuân, Cầu Giấy",ĐẠT,20.498 km / ngắn nhất 20.498 km,11.593466666666668
+Hà Đông,Bắc Từ Liêm,UCS,Hà Đông → Thanh Xuân → Cầu Giấy → Bắc Từ Liêm,3,20.49780598612358,20.49780598612358,2,True,0.0,9,15,8,"Hà Đông, Nam Từ Liêm, Thanh Xuân, Đống Đa, Cầu Giấy, Hai Bà Trưng, Ba Đình, Hoàn Kiếm, Hoàng Mai",ĐẠT,20.498 km / ngắn nhất 20.498 km,18.9321
